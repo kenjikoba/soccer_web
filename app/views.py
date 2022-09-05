@@ -7,8 +7,12 @@
 # # def index(request):
 # #     return HttpResponse("Hello, world. You're at the app index.")
 
+from django.shortcuts import render
 
-from django.views.generic import TemplateView
+from app.models import data
 
-class IndexView(TemplateView):
+def index(request):
     template_name = 'index.html'
+    template_text = "変数受け渡しチェック" 
+    context = {"text" : template_text} 
+    return render(request,template_name,context)
