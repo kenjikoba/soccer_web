@@ -2,5 +2,20 @@
 {% block content %}
 <h1>ユーザー情報の入力</h1>
 <p>選手はこれです！</p>
+<table>
+    <a>{{ Height }}</a>
+    <br>
+    <br>
+    <a>{{ Weight }}</a>
+    <br>
+    <br>
+    <a>{{ Age }}</a>
+    <br>
+    <br>
+    <a>{{ Position }}</a>
+    <br>
+    <br>
+    <a>{{ Attributes }}</a>
+</table>
 <a href="{% url 'app:index' %}">トップへ戻る</a>
 {% endblock %}

@@ -9,10 +9,6 @@
 
 from django.shortcuts import render
 
-from django.views.generic import TemplateView, CreateView
-from .forms import InputForm
-from django.urls import reverse_lazy
-
 
 def index(request):
     template_name = 'index.html'
@@ -20,12 +16,37 @@ def index(request):
     context = {"text" : template_text} 
     return render(request,template_name,context)
 
-
-class InputCreateView(CreateView):
+def InputCreate(request):
     template_name = 'user_input.html'
-    form_class = InputForm
-    success_url = reverse_lazy('app:user_input_complete')
+    return render(request,template_name)
 
+def move_to_output(request):
+    if request.method == 'POST':
+        Height = request.POST.get('Height')
+        Weight = request.POST.get('Weight')
+        Age = request.POST.get('Age')
+        Position = request.POST.get('Position')
+        Attributes= request.POST.get('Attributes')
 
-class InputCreateCompleteView(TemplateView):
-    template_name = 'user_input_complete.html'
+        params = {
+            "Height": Height,
+            "Weight": Weight,
+            "Age": Age,
+            "Position": Position,
+            "Attributes": Attributes,
+        }
+    elif request.method == 'GET':
+        Height = request.GET.get('Height')
+        Weight = request.GET.get('Weight')
+        Age = request.GET.get('Age')
+        Position = request.GET.get('Position')
+        Attributes= request.GET.get('Attributes')
+
+        params = {
+            "Height": Height,
+            "Weight": Weight,
+            "Age": Age,
+            "Position": Position,
+            "Attributes": Attributes,
+        }
+    return render(request, 'user_input_complete.html', params)
