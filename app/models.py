@@ -37,4 +37,21 @@ class user_data(models.Model):
     male_height = models.IntegerField(default=0)
     male_weight = models.IntegerField(default=0)
     female_height = models.IntegerField(default=0)
-    female_weight = models.IntegerField(default=0)
+    female_weight = models.IntegerField(default=0) 
+
+import uuid
+from django.utils import timezone
+ 
+class UserInput(models.Model):
+    # id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    # date = models.DateField(verbose_name='日付', default=timezone.now)
+    # title = models.CharField(verbose_name='タイトル', max_length=40)
+    # text = models.CharField(verbose_name='本文', max_length=200)
+    # created_at = models.DateTimeField(verbose_name='作成日時', default=timezone.now)
+    # updated_at = models.DateTimeField(verbose_name='編集日時', blank=True, null=True)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    height = models.IntegerField(verbose_name='身長', default=0)
+    weight = models.IntegerField(verbose_name='体重', default=0)
+    age = models.CharField(verbose_name='年齢', max_length=200, blank=True)
+    position = models.CharField(verbose_name='ポジション', max_length=200, blank=True)
+    attributes = models.CharField(verbose_name='特徴', max_length=200, blank=True)
