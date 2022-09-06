@@ -5,7 +5,12 @@
 <p>{{ result.0.0 }}</p>
 <p>{{ result.0.1 }}</p>
 <p>{{ result.0.2 }}</p>
-<p>{{ result|length }}件の投稿</p>
+<p>{{ result|length }}件のマッチ</p>
+
+{% for list in result %}
+    {{ list.2 }} <br>
+{% endfor %}
+
 
 <!-- <table>
     <a>{{ Height }}</a>
