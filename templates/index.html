@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Soccer_temp</title>
-</head>
-<body>
-<h1>App by Django</h1>
+{% extends 'base.html' %}
+{% block content %}
+<h1>App</h1>
+<h2><a href="{% url 'app:user_input' %}">ユーザー情報入力へ</a></h2>
 <p>{{ text }}</p>
-</body>
-</html>
+{% endblock %}
