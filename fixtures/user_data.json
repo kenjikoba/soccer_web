@@ -3,7 +3,7 @@
     "model": "app.user_data",
     "pk": 1,
     "fields": {
-      "age": "1",
+      "age": [1],
       "male_height": 78,
       "male_weight": 10,
       "female_height": 78,
@@ -14,7 +14,7 @@
     "model": "app.user_data",
     "pk": 2,
     "fields": {
-      "age": "2",
+      "age": [2],
       "male_height": 89,
       "male_weight": 12,
       "female_height": 87,
@@ -25,7 +25,7 @@
     "model": "app.user_data",
     "pk": 3,
     "fields": {
-      "age": "3",
+      "age": [3],
       "male_height": 95,
       "male_weight": 14,
       "female_height": 95,
@@ -47,7 +47,7 @@
     "model": "app.user_data",
     "pk": 5,
     "fields": {
-      "age": "5",
+      "age": [5],
       "male_height": 109,
       "male_weight": 18,
       "female_height": 110,
@@ -58,7 +58,7 @@
     "model": "app.user_data",
     "pk": 6,
     "fields": {
-      "age": "6",
+      "age": [6],
       "male_height": 115,
       "male_weight": 20,
       "female_height": 116,
@@ -69,7 +69,7 @@
     "model": "app.user_data",
     "pk": 7,
     "fields": {
-      "age": "7",
+      "age": [7],
       "male_height": 121,
       "male_weight": 23,
       "female_height": 121,
@@ -80,7 +80,7 @@
     "model": "app.user_data",
     "pk": 8,
     "fields": {
-      "age": "8",
+      "age": [8],
       "male_height": 127,
       "male_weight": 26,
       "female_height": 125,
@@ -91,7 +91,7 @@
     "model": "app.user_data",
     "pk": 9,
     "fields": {
-      "age": "9",
+      "age": [9],
       "male_height": 133,
       "male_weight": 29,
       "female_height": 134,
@@ -102,7 +102,7 @@
     "model": "app.user_data",
     "pk": 10,
     "fields": {
-      "age": "10",
+      "age": [10],
       "male_height": 137,
       "male_weight": 32,
       "female_height": 139,
@@ -113,7 +113,7 @@
     "model": "app.user_data",
     "pk": 11,
     "fields": {
-      "age": "11",
+      "age": [11],
       "male_height": 145,
       "male_weight": 37,
       "female_height": 145,
@@ -124,7 +124,7 @@
     "model": "app.user_data",
     "pk": 12,
     "fields": {
-      "age": "12",
+      "age": [12],
       "male_height": 149,
       "male_weight": 42,
       "female_height": 151,
@@ -135,7 +135,7 @@
     "model": "app.user_data",
     "pk": 13,
     "fields": {
-      "age": "13",
+      "age": [13],
       "male_height": 158,
       "male_weight": 45,
       "female_height": 156,
@@ -146,7 +146,7 @@
     "model": "app.user_data",
     "pk": 14,
     "fields": {
-      "age": "14",
+      "age": [14],
       "male_height": 164,
       "male_weight": 51,
       "female_height": 155,
@@ -157,7 +157,7 @@
     "model": "app.user_data",
     "pk": 15,
     "fields": {
-      "age": "15",
+      "age": [15],
       "male_height": 169,
       "male_weight": 57,
       "female_height": 157,
@@ -168,7 +168,7 @@
     "model": "app.user_data",
     "pk": 16,
     "fields": {
-      "age": "16",
+      "age": [16],
       "male_height": 169,
       "male_weight": 58,
       "female_height": 158,
@@ -179,7 +179,7 @@
     "model": "app.user_data",
     "pk": 17,
     "fields": {
-      "age": "17",
+      "age": [17],
       "male_height": 170,
       "male_weight": 61,
       "female_height": 160,
@@ -190,7 +190,7 @@
     "model": "app.user_data",
     "pk": 18,
     "fields": {
-      "age": "18",
+      "age": [18],
       "male_height": 170,
       "male_weight": 61,
       "female_height": 159,
@@ -201,7 +201,7 @@
     "model": "app.user_data",
     "pk": 19,
     "fields": {
-      "age": "19",
+      "age": [19],
       "male_height": 169,
       "male_weight": 62,
       "female_height": 157,
@@ -212,7 +212,7 @@
     "model": "app.user_data",
     "pk": 20,
     "fields": {
-      "age": "20",
+      "age": [20],
       "male_height": 170,
       "male_weight": 64,
       "female_height": 157,
@@ -223,7 +223,7 @@
     "model": "app.user_data",
     "pk": 21,
     "fields": {
-      "age": "21",
+      "age": [21],
       "male_height": 171,
       "male_weight": 64,
       "female_height": 157,
@@ -234,7 +234,7 @@
     "model": "app.user_data",
     "pk": 22,
     "fields": {
-      "age": "22",
+      "age": [22],
       "male_height": 171,
       "male_weight": 65,
       "female_height": 157,
@@ -245,7 +245,7 @@
     "model": "app.user_data",
     "pk": 23,
     "fields": {
-      "age": "23",
+      "age": [23],
       "male_height": 171,
       "male_weight": 64,
       "female_height": 158,
@@ -256,7 +256,7 @@
     "model": "app.user_data",
     "pk": 24,
     "fields": {
-      "age": "24",
+      "age": [24],
       "male_height": 171,
       "male_weight": 64,
       "female_height": 157,
@@ -267,7 +267,7 @@
     "model": "app.user_data",
     "pk": 25,
     "fields": {
-      "age": "25",
+      "age": [25],
       "male_height": 172,
       "male_weight": 67,
       "female_height": 159,
@@ -278,7 +278,7 @@
     "model": "app.user_data",
     "pk": 26,
     "fields": {
-      "age": "26～29",
+      "age": [26,27,28,29],
       "male_height": 171,
       "male_weight": 66,
       "female_height": 157,
@@ -289,7 +289,7 @@
     "model": "app.user_data",
     "pk": 27,
     "fields": {
-      "age": "30～39",
+      "age": [30,31,32,33,34,35,36,37,38,39],
       "male_height": 171,
       "male_weight": 69,
       "female_height": 158,
@@ -300,7 +300,7 @@
     "model": "app.user_data",
     "pk": 28,
     "fields": {
-      "age": "40～49",
+      "age": [40,41,42,43,44,45,46,47,48,49],
       "male_height": 170,
       "male_weight": 70,
       "female_height": 157,
@@ -311,7 +311,7 @@
     "model": "app.user_data",
     "pk": 29,
     "fields": {
-      "age": "50～59",
+      "age": [50,51,52,53,54,55,56,57,58,59],
       "male_height": 168,
       "male_weight": 68,
       "female_height": 156,
@@ -322,7 +322,7 @@
     "model": "app.user_data",
     "pk": 30,
     "fields": {
-      "age": "60～69",
+      "age": [60,61,62,63,64,65,66,67,68,69],
       "male_height": 165,
       "male_weight": 64,
       "female_height": 152,
@@ -333,7 +333,7 @@
     "model": "app.user_data",
     "pk": 31,
     "fields": {
-      "age": "70~",
+      "age": [70,71,72,73,74,75,76,77,78,79,80],
       "male_height": 162,
       "male_weight": 61,
       "female_height": 148,
