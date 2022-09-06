@@ -172,7 +172,7 @@ for z in range(25):
 
         # iが0の時は上書き保存して、iが1の時は配列を作成して、それ以外の場合は読み込んだ後に配列を分解して、
         # 新たな配列に追加する。（分解しないと多重配列になっていってしまったため）
-        filename = './data_new.json'
+        filename = './data.json'
         if z == 0 and i == 0:
             json_file = open(filename, mode="w")
             json.dump(item, json_file, indent=2, ensure_ascii=False)
