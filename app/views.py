@@ -7,7 +7,7 @@
 # # def index(request):
 # #     return HttpResponse("Hello, world. You're at the app index.")
 
-# from attr import attributes
+from attr import attributes
 from django.shortcuts import render
 
 from app.models import data, user_data
@@ -41,9 +41,9 @@ def player_list(request):
 
 def move_to_output(request):
     if request.method == 'POST':
-        # Height = request.POST.get('Height')
+        user_height = int(request.POST.get('Height'))
         # Weight = request.POST.get('Weight')
-        # Age = request.POST.get('Age')
+        user_age = int(request.POST.get('Age'))
         # Position = request.POST.get('Position')
         user_attributes = request.POST.get('Attributes')
 
@@ -56,9 +56,9 @@ def move_to_output(request):
         # }
         user_position = request.POST.get('Position')
     elif request.method == 'GET':
-        # Height = request.GET.get('Height')
+        user_height = int(request.GET.get('Height'))
         # Weight = request.GET.get('Weight')
-        # Age = request.GET.get('Age')
+        user_age = int(request.GET.get('Age'))
         # Position = request.GET.get('Position')
         user_attributes = request.GET.get('Attributes')
 
