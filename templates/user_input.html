@@ -9,9 +9,48 @@
     <br>
     <a>Age:</a><input type="number" step="1" id="Age" name="Age">
     <br>
-    <a>Position:</a><input type="text" id="Position" name="Position">
+    <a>Position:</a><select name="Position" id="Position">
+        <option value="" selected>Any</option>
+        <option value="Gk">Goalkeeper</option>
+        <option value="D(">Defender</option>
+        <!-- <option value="D(L)">Defender Left</option>
+        <option value="D(C)">Defender Center</option>
+        <option value="D(R)">Defender Right</option>
+        <option value="D(RLC)">Defender Right Left Center</option>  -->
+        <option value="DM(">Defensive Midfielder</option>
+        <!-- <option value="DM(L)">Defensive Midfielder Left</option>
+        <option value="DM(C)">Defensive Midfielder Center</option>
+        <option value="DM(R)">Defensive Midfielder Right</option>
+        <option value="DM(RLC)">Defensive Midfielder Right Left Center</option> -->
+        <option value="M">Midfielder</option> 
+        <!-- <option value="M(L)">Midfielder Left</option>
+        <option value="M(C)">Midfielder Center</option>
+        <option value="M(R)">Midfielder Right</option>
+        <option value="M(RLC)">Midfielder Right Left Center</option> -->
+        <option value="AM(">Attacking Midfielder</option>
+        <!-- <option value="AM(L)">Attacking Midfielder Left</option>
+        <option value="AM(C)">Attacking Midfielder Center</option>
+        <option value="AM(R">Attacking Midfielder Right</option>
+        <option value="AM(RLC)">Attacking Midfielder Right Left Center</option> -->
+        <option value="F(">Forward</option>
+        <!-- <option value="F(L)">Forward Left</option>
+        <option value="F(C)">Forward Center</option>
+        <option value="F(R)">Forward Right</option>
+        <option value="F(RLC)">Forward Right Left Center</option> -->
+    </select>
     <br>
-    <a>Attributes:</a><input type="text" id="Attributes" name="Attributes">
+    <a>Attributes:</a><select name="Attributes" id="Attributes">
+        <option value="" selected>Any</option>
+        <option value="Control">Control</option>
+        <option value="Strength">Strength</option>
+        <option value="Positioning">Positioning</option>
+        <option value="Dribbling">Dribbling</option>
+        <option value="Stamina">Stamina</option>
+        <option value="Finishing">Finishing</option> 
+        <option value="Free">Free Kicks</option>
+        <option value="Leadership">Leadership</option>
+        <option value="Corners">Corners</option>
+    </select>
     <br>
     <a href="{% url 'app:player_list' %}">探す</a>
     <input type="submit" value="送信">
