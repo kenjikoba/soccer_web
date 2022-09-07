@@ -56,10 +56,10 @@ def move_to_output(request):
         # }
         user_position = request.GET.get('Position')
     # 入力をPositionだけDMとかなんかって入力したら検索できる。
-    player_results_list = list(data.objects.all().filter(position__contains=user_position).values_list())
+    # player_results_list = list(data.objects.all().filter(position__contains=user_position).values_list())
     user_diff = user_height - int(user_data.objects.all().get(age__contains=user_age).male_height)
-    user_diff_min = user_diff - 5
-    user_diff_max = user_diff + 5
+    user_diff_min = user_diff - 2
+    user_diff_max = user_diff + 2
     player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_min).filter(height_diff__lte=user_diff_max).filter(attributes__contains=user_attributes).values_list())
     result = {"result" : player_results_list} 
     return render(request, 'user_input_complete.html', result)
