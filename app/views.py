@@ -62,9 +62,13 @@ def move_to_output(request):
     user_diff_h_min = user_diff_h - 2
     user_diff_h_max = user_diff_h + 2
 
-    user_diff_w_min = user_diff_w - 3
-    user_diff_w_max = user_diff_w + 3
+    user_diff_w_min = user_diff_w - 5
+    user_diff_w_max = user_diff_w + 5
+
+    def sort_value(x):
+        return abs((user_diff_h - x[6]) + (user_diff_w - x[7]))
 
     player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
+    player_results_list.sort(key=sort_value)    
     result = {"result" : player_results_list} 
     return render(request, 'user_input_complete.html', result)
