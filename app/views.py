@@ -7,7 +7,7 @@
 # # def index(request):
 # #     return HttpResponse("Hello, world. You're at the app index.")
 
-from attr import attributes
+# from attr import attributes
 from django.shortcuts import render
 
 from app.models import data, user_data
