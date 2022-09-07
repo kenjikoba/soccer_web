@@ -27,7 +27,7 @@ def player_list(request):
 def move_to_output(request):
     if request.method == 'POST':
         user_height = int(request.POST.get('Height'))
-        # Weight = request.POST.get('Weight')
+        user_weight = int(request.POST.get('Weight'))
         user_age = request.POST.get('Age')
         # Position = request.POST.get('Position')
         user_attributes = request.POST.get('Attributes')
@@ -42,7 +42,7 @@ def move_to_output(request):
         user_position = request.POST.get('Position')
     elif request.method == 'GET':
         user_height = int(request.GET.get('Height'))
-        # Weight = request.GET.get('Weight')
+        user_weight = int(request.GET.get('Weight'))
         user_age = request.GET.get('Age')
         # Position = request.GET.get('Position')
         user_attributes = request.GET.get('Attributes')
@@ -55,13 +55,16 @@ def move_to_output(request):
         #     "Attributes": Attributes,
         # }
         user_position = request.GET.get('Position')
-    # 入力をPositionだけDMとかなんかって入力したら検索できる。
-    # player_results_list = list(data.objects.all().filter(position__contains=user_position).values_list())
-    user_diff = user_height - int(user_data.objects.all().get(age__contains=user_age).male_height)
-    user_diff_min = user_diff - 2
-    user_diff_max = user_diff + 2
-    player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_min).filter(height_diff__lte=user_diff_max).filter(attributes__contains=user_attributes).values_list())
+
+    user_diff_h = user_height - int(user_data.objects.all().get(age__contains=user_age).male_height)
+    user_diff_w = user_weight - int(user_data.objects.all().get(age__contains=user_age).male_weight)
+
+    user_diff_h_min = user_diff_h - 2
+    user_diff_h_max = user_diff_h + 2
+
+    user_diff_w_min = user_diff_w - 3
+    user_diff_w_max = user_diff_w + 3
+
+    player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     result = {"result" : player_results_list} 
     return render(request, 'user_input_complete.html', result)
-
-    # .filter(attributes__contains=user_attributes)
