@@ -1,31 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>ユーザー情報の入力</h1>
-<p>選手はこれです！</p>
-<p>{{ result.0.0 }}</p>
-<p>{{ result.0.1 }}</p>
-<p>{{ result.0.2 }}</p>
-<p>{{ result|length }}件のマッチ</p>
 
-{% for list in result %}
-    {{ list.2 }} <br>
-{% endfor %}
-
-
-<!-- <table>
-    <a>{{ Height }}</a>
-    <br>
-    <br>
-    <a>{{ Weight }}</a>
-    <br>
-    <br>
-    <a>{{ Age }}</a>
-    <br>
-    <br>
-    <a>{{ Position }}</a>
-    <br>
-    <br>
-    <a>{{ Attributes }}</a>
-</table> -->
-<a href="{% url 'app:index' %}">トップへ戻る</a>
+<div class="form px-4 px-lg-5 h-100">
+    <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <h1>選手はこれです！</h1>
+        <p>{{ result.0.0 }}</p>
+        <p>{{ result.0.1 }}</p>
+        <p>{{ result.0.2 }}</p>
+        <p>{{ result|length }}件のマッチ</p>
+        {% for list in result %}
+        {{ list.2 }} <br>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
