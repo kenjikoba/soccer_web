@@ -154,6 +154,31 @@ header.masthead {
   cursor: pointer;
 }
 
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+
+select {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* border: 1px solid #bdbdae; 枠線 */
+  /* background-color: white;   背景色 */
+  /* font-size: 16px;           文字サイズ */
+  /* padding: 0.4em;            内側の余白量 */
+  /* border-radius: 3px;        角丸(半径) */
+}
+/* ie対応 */
+select::-ms-expand {
+  display: none;
+}
+select:invalid { color: #757574; }
+/* select option { color: black; } */
+select option:first-child { color: #757574; }
 
 .heading {
   padding-bottom: 5rem;
@@ -164,4 +189,22 @@ header.masthead {
 
 .subtitle {
   color: white;
+}
+
+
+.card-img-top {
+  max-width: 300px;
+}
+
+
+.carousel-item {
+  text-align: center;
+  background: url("../assets/img/player7.jpg");
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  opacity: 0.93;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
