@@ -215,3 +215,20 @@ select option:first-child { color: #757574; }
   background-attachment: scroll;
   background-size: cover;
 }
+
+
+.playerData {
+  color: white;
+  padding: 0.8rem;
+}
+
+.playerImage {
+  align-items: center;
+}
+
+.zero {
+  min-height: 800px;
+  text-align: center;
+  align-items: center;
+  background: url("../assets/img/player7.jpg");
+}
