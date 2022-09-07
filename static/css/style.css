@@ -206,6 +206,7 @@ select option:first-child { color: #757574; }
 .carousel-item {
   text-align: center;
   background: url("../assets/img/player7.jpg");
+  min-height: max-content;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   opacity: 0.93;
