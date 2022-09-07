@@ -41,9 +41,9 @@ def player_list(request):
 
 def move_to_output(request):
     if request.method == 'POST':
-        user_height = int(request.POST.get('Height'))
+        user_height = request.POST.get('Height')
         # Weight = request.POST.get('Weight')
-        user_age = int(request.POST.get('Age'))
+        user_age = request.POST.get('Age')
         # Position = request.POST.get('Position')
         user_attributes = request.POST.get('Attributes')
 
@@ -56,9 +56,9 @@ def move_to_output(request):
         # }
         user_position = request.POST.get('Position')
     elif request.method == 'GET':
-        user_height = int(request.GET.get('Height'))
+        user_height = request.GET.get('Height')
         # Weight = request.GET.get('Weight')
-        user_age = int(request.GET.get('Age'))
+        user_age = request.GET.get('Age')
         # Position = request.GET.get('Position')
         user_attributes = request.GET.get('Attributes')
 
@@ -72,10 +72,11 @@ def move_to_output(request):
         user_position = request.GET.get('Position')
     # 入力をPositionだけDMとかなんかって入力したら検索できる。
     # player_results_list = list(data.objects.all().filter(position__contains=user_position).values_list())
-    user_diff = user_height - int(user_data.objects.all().get(age__contains=user_age).male_height)
-    user_diff_min = user_diff - 5
-    user_diff_max = user_diff + 5
-    player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_min).filter(height_diff__lte=user_diff_max).filter(attributes__contains=user_attributes).values_list())
+    # user_diff = user_height - int(user_data.objects.all().get(age__contains=user_age).male_height)
+    # user_diff_min = user_diff - 5
+    # user_diff_max = user_diff + 5
+    # player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_min).filter(height_diff__lte=user_diff_max).filter(attributes__contains=user_attributes).values_list())
+    player_results_list = data.objects.all().filter(position__contains=user_position).filter(attributes__contains=user_attributes).values_list()
     result = {"result" : player_results_list} 
     return render(request, 'user_input_complete.html', result)
 
