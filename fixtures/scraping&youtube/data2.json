@@ -1,0 +1,28 @@
+{
+  "model": "app.data",
+  "pk": 1,
+  "fields": {
+    "full_name": " Lionel Andrés Messi Cuccitini",
+    "short_name": " MESSI",
+    "position": "AM(RC), F(RC)",
+    "age": " 35 (Jun 24, 1987)",
+    "height": 170,
+    "weight": 72,
+    "height_diff": -12,
+    "weight_diff": -3,
+    "attributes": [
+      "Control",
+      "Passing",
+      "Composure",
+      "Pace",
+      "Flair",
+      "Free Kicks",
+      "Creativity",
+      "Penalties",
+      "Finishing",
+      "Dribbling"
+    ],
+    "image": "https://cdn.soccerwiki.org/images/player/2772.png",
+    "foot": " Left"
+  }
+}
