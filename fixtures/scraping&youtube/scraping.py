@@ -12,13 +12,13 @@ import json
 # youtube data api v3を利用するために必要なもの
 # ここから------------------------------------------
 from apiclient.discovery import build
-from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
+# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
 
-DEVELOPER_KEY = YOUTUBE_KEY
-YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
-YOUTUBE_API_VERSION = YOUTUBE_VERSION
+# DEVELOPER_KEY = YOUTUBE_KEY
+# YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
+# YOUTUBE_API_VERSION = YOUTUBE_VERSION
 
-youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
+# youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
 # ------------------------------------------ここまで
 
 # 平均の体重・身長を出すために配列に一旦格納しておく。
@@ -29,7 +29,7 @@ height_average = 182 # 1回目はコメントアウト。2回目は使う
 
 # ここから、各選手のurl取得、次ページの取得、各選手のページからの情報取得、次のページへの遷移を全て15回繰り返す。
 # サーバの負荷軽減のため10秒の間隔をあけて。25回で。
-for z in range(22,25):
+for z in range(25):
 
     # スクレイピングするページのurl（Top Rated Players）
     url = f'https://en.soccerwiki.org/search/player?firstname=&surname=&nationality=&leagueid=&position=&minrating=90&maxrating=99&minage=15&maxage=60&country=&minheight=150&maxheight=220&foot=&submit=15&offset={z*15}'
@@ -115,34 +115,62 @@ for z in range(22,25):
             player_image = image['data-src']
         print(player_image)
 
+
+
+
+
+        # Wikipediaから選手の日本語名と写真を取ってくる。
+        q_wiki = player_full_name + '　' + 'サッカー' + '　' + 'ウィキペディア'
+        google_url = 'https://www.google.com/search?q=' + q_wiki
+        google = requests.get(google_url)
+        google.raise_for_status()
+        soup_google = BeautifulSoup(google.text, "html.parser")
+        google_list = soup_google.select('div.kCrYT > a')
+        # print(google_list)
+        # site_url = google_list[0].get('href').replace('/url?q=','')
+        # yuRUbf
+        # google_list = soup.find_all("div", class_="yuRUbf")
+        print(google_list)
+        # site = google_list[0]
+        # site_url = site['href']
+        # print(site_url)
+        # https://ja.wikipedia.org/wiki/%25E3%2583%25AA%25E3%2582%25AA%25E3%2583%258D%25E3%2583%25AB%25E3%2583%25BB%25E3%2583%25A1%25E3%2583%2583%25E3%2582%25B7&amp;sa=U&amp;ved=2ahUKEwifvdjewIX6AhW6p1YBHSgwCu4QFnoECAEQAg&amp;usg=AOvVaw0bat7le32_Wkya6GEyno4O"
+
+
+
+
+
+
+
+
         # youtubeのapiを利用して検索結果を保存
         # ここから-------------------------------
-        q = player_full_name + ' ' + 'soccer' + ' ' + 'skills'
-        max_results = 1
-        search_response = youtube.search().list(
-        q=q,
-        # part="id,snippet",
-        part="id",
-        # fields='items(id(videoId),snippet(title,thumbnails(default(url))))',
-        fields='items(id(videoId))',
-        type='video',
-        maxResults=max_results
-        ).execute()
+        # q = player_full_name + ' ' + 'soccer' + ' ' + 'skills'
+        # max_results = 1
+        # search_response = youtube.search().list(
+        # q=q,
+        # # part="id,snippet",
+        # part="id",
+        # # fields='items(id(videoId),snippet(title,thumbnails(default(url))))',
+        # fields='items(id(videoId))',
+        # type='video',
+        # maxResults=max_results
+        # ).execute()
 
-        youtube_results = search_response['items']
-        print(youtube_results)
+        # youtube_results = search_response['items']
+        # print(youtube_results)
 
-        # # 1つ目
-        youtube_result_1 = youtube_results[0]
-        # print(youtube_result_1)
-        # print(youtube_result_1['snippet']['title'])
-        # print(youtube_result_1['snippet']['thumbnails']['default']['url'])
-        # player_youtube1_title = youtube_result_1['snippet']['title']
-        # player_youtube1_image_url = youtube_result_1['snippet']['thumbnails']['default']['url']
-        # player_youtube1_url = 'https://www.youtube.com/watch?v=%s' % youtube_result_1["id"]["videoId"]
-        # print(player_youtube1_url)
-        player_videoID = youtube_result_1["id"]["videoId"]
-        print(player_videoID)
+        # # # 1つ目
+        # youtube_result_1 = youtube_results[0]
+        # # print(youtube_result_1)
+        # # print(youtube_result_1['snippet']['title'])
+        # # print(youtube_result_1['snippet']['thumbnails']['default']['url'])
+        # # player_youtube1_title = youtube_result_1['snippet']['title']
+        # # player_youtube1_image_url = youtube_result_1['snippet']['thumbnails']['default']['url']
+        # # player_youtube1_url = 'https://www.youtube.com/watch?v=%s' % youtube_result_1["id"]["videoId"]
+        # # print(player_youtube1_url)
+        # player_videoID = youtube_result_1["id"]["videoId"]
+        # print(player_videoID)
 
         # # # 2つ目
         # # youtube_result_2 = youtube_results[1]
@@ -199,7 +227,7 @@ for z in range(22,25):
             # 'youtube3_image': player_youtube3_image_url,
             # 'youtube3_url': player_youtube3_url,
             'image': player_image,
-            'video': player_videoID,
+            # 'video': player_videoID,
             'foot': player_foot
         } 
         }

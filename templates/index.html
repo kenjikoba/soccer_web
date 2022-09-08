@@ -25,28 +25,61 @@
     <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
         <form action="{% url 'app:user_input_complete' %}" method="post" class="contact-form row">
             {% csrf_token %}
-            <div class="row row-cols-2">
+            <div class="row row-cols-6">
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
                 <div class="form-field col x-100"></div>
                 <div class="form-field col x-100">
                     <input class="input-text no-spin" type="number"  id="Age" name="Age" autocomplete="off" placeholder="入力してください" required>
                     <label class="label" for="message" style="font-weight:bold">年齢</label>
                 </div>
             </div>
-            <div class="row row-cols-2">
+            <div class="row row-cols-6">
                 <div class="form-field col x-100">
                     <input class="input-text no-spin" type="number" step="1" id="Height" name="Height" value="He" autocomplete="off" placeholder="入力してください" required>
                     <label class="label" id="label" for="name" style="font-weight:bold">身長</label>
                 </div>
                 <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
             </div>
-            <div class="row row-cols-2">
+            <div class="row row-cols-6">
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
                 <div class="form-field col x-100"></div>
                 <div class="form-field col x-100">
                     <input class="input-text no-spin" type="number" step="1" id="Weight" name="Weight" autocomplete="off" placeholder="入力してください" required>
                     <label class="label" for="email" style="font-weight:bold">体重</label>
                 </div>
+                <div class="form-field col x-100"></div>
             </div>
-            <div class="row row-cols-2">
+            <div class="row row-cols-6">
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100">
+                    <select class="input-text js-input" type="text" id="Foot" name="Foot" required>
+                        <option value="" selected>入力してください</option>
+                        <option value="Left">左足</option>
+                        <option value="Right">右足</option>
+                        <option value="Both">両方</option>
+                    </select>
+                    <label class="label" for="message" style="font-weight:bold">利き足</label>
+                </div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+            </div>
+            <div class="row row-cols-6">
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
                 <div class="form-field col x-100">
                     <select class="input-text js-input" type="text" id="Position" name="Position" required>
                         <option value="" selected>入力してください</option>
@@ -74,10 +107,8 @@
                     </select>
                     <label class="label" for="message" style="font-weight:bold">ポジション</label>
                 </div>
-                <div class="form-field col x-100"></div>
             </div>
-            <div class="row row-cols-2">
-                <div class="form-field col x-100"></div>
+            <div class="row row-cols-6">
                 <div class="form-field col x-100">
                     <select class="input-text js-input" type="text" id="Attributes" name="Attributes" required>
                         <option value="" selected>入力してください</option>
@@ -93,9 +124,14 @@
                     </select>
                     <label class="label" for="message" style="font-weight:bold">特徴</label>
                 </div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
+                <div class="form-field col x-100"></div>
             </div>
             <div class="form-field col x-100 align-center">
-                <input class="submit-btn" type="submit" value="探す">
+                <input class="submit-btn" type="submit" value="SEARCH">
             </div>
          </form>
     </div>
