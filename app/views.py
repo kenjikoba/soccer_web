@@ -70,20 +70,18 @@ def move_to_output(request):
         return abs((user_diff_h - x[6]) + (user_diff_w - x[7]))
 
     if user_position == 'D':
-        player_results_list = list(data.objects.all().filter(position__contains='D').exclude(position__contains='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
+        player_results_list = list(data.objects.all().filter(position__contains='D').exclude(position__startswith='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     elif user_position =='D(L)' or user_position == 'D(C)' or user_position =='D(R)':
-        player_results_list = list(data.objects.all().filter(position__contains='D').filter(position__contains=user_position[-2]).exclude(position__contains='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
+        player_results_list = list(data.objects.all().filter(Q(position__contains='D') & Q(position__contains=user_position[-2])).exclude(position__startswith='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     elif user_position == 'M':
         player_results_list = list(data.objects.all().filter(position__contains='M').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     elif user_position =='M(L)' or user_position =='M(C)' or user_position =="M(R)":
-            player_results_list = list(data.objects.all().filter(Q(position__contains='M') & Q(position__contains='R')).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
+            player_results_list = list(data.objects.all().filter(Q(position__contains='M') & Q(position__contains=user_position[-2])).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     elif len(user_position)<=2:
         player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     else:
         player_results_list = list(data.objects.all().filter(position__contains=user_position[:-3]).filter(position__contains=user_position[-2]).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
 
-
-    player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
     player_results_list.sort(key=sort_value)    
     result = {"result" : player_results_list} 
     return render(request, 'user_input_complete.html', result)
