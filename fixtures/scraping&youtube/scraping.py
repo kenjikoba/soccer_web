@@ -12,10 +12,8 @@ import json
 # youtube data api v3を利用するために必要なもの
 # ここから------------------------------------------
 from apiclient.discovery import build
-# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
-YOUTUBE_KEY = 'AIzaSyC-iv2T9ePHvwBhjTTpKlQO-pOBXtOZeFo'
-YOUTUBE_SERVICE = "youtube"
-YOUTUBE_VERSION = "v3"
+from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
+
 DEVELOPER_KEY = YOUTUBE_KEY
 YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
 YOUTUBE_API_VERSION = YOUTUBE_VERSION
@@ -31,7 +29,7 @@ height_average = 182 # 1回目はコメントアウト。2回目は使う
 
 # ここから、各選手のurl取得、次ページの取得、各選手のページからの情報取得、次のページへの遷移を全て15回繰り返す。
 # サーバの負荷軽減のため10秒の間隔をあけて。25回で。
-for z in range(24,25):
+for z in range(25):
 
     # スクレイピングするページのurl（Top Rated Players）
     url = f'https://en.soccerwiki.org/search/player?firstname=&surname=&nationality=&leagueid=&position=&minrating=90&maxrating=99&minage=15&maxage=60&country=&minheight=150&maxheight=220&foot=&submit=15&offset={z*15}'
@@ -85,7 +83,7 @@ for z in range(24,25):
         p = player_profiles_2[1].contents
         player_foot = p[1]
         if player_foot == ' Both':
-            player_foot = 'RightLeft'
+            player_foot = 'Right and Left'
         print(player_foot)
         # 選手の特徴のタグを抽出。
         player_attributes = soup_1.find_all(True, class_="col-12 col-md-12 col-lg-4 mb-2")
@@ -100,8 +98,8 @@ for z in range(24,25):
 
         # youtubeのapiを利用して検索結果を保存
         # ここから-------------------------------
-        q = player_short_name + ' ' + 'soccer' + ' ' + 'skills'
-        max_results = 3
+        q = player_full_name + ' ' + 'soccer' + ' ' + 'skills'
+        max_results = 1
         search_response = youtube.search().list(
         q=q,
         # part="id,snippet",
