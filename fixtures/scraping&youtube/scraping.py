@@ -29,7 +29,7 @@ height_average = 182 # 1回目はコメントアウト。2回目は使う
 
 # ここから、各選手のurl取得、次ページの取得、各選手のページからの情報取得、次のページへの遷移を全て15回繰り返す。
 # サーバの負荷軽減のため10秒の間隔をあけて。25回で。
-for z in range(25):
+for z in range(22,25):
 
     # スクレイピングするページのurl（Top Rated Players）
     url = f'https://en.soccerwiki.org/search/player?firstname=&surname=&nationality=&leagueid=&position=&minrating=90&maxrating=99&minage=15&maxage=60&country=&minheight=150&maxheight=220&foot=&submit=15&offset={z*15}'
@@ -91,6 +91,25 @@ for z in range(25):
         for j in range(len(player_attributes)):
             player_attributes_array.append(player_attributes[j].text)
         print(player_attributes_array)
+
+        # positionの括弧内のものをうまく全部反映させる。
+        player_position_list = list(map(str,player_position.split(',')))
+        print(player_position_list)
+        if player_position_list[0] != 'Gk':
+            for pos in range(len(player_position_list)):
+                if player_position_list[len(player_position_list) - pos - 1][-1] == ')':
+                    for comma in range(len(player_position_list[len(player_position_list) - pos - 1])):
+                        add_comma = list(map(str, player_position_list[len(player_position_list) - pos - 1].split('(')))
+                        inside_comma = list(map(str, add_comma[1].split(')')))
+                        inside = inside_comma[0]
+                else:
+                    player_position_list[len(player_position_list) - pos - 1] = player_position_list[len(player_position_list) - pos - 1] + '(' + inside + ')'
+            for hey in range(len(player_position_list)):
+                if hey == 0:
+                    player_position = player_position_list[hey]
+                else:
+                    player_position = player_position + ', ' + player_position_list[hey]
+        print(player_position)
         
         for image in player_profile_image:
             player_image = image['data-src']
@@ -111,6 +130,7 @@ for z in range(25):
         ).execute()
 
         youtube_results = search_response['items']
+        print(youtube_results)
 
         # # 1つ目
         youtube_result_1 = youtube_results[0]
@@ -124,30 +144,30 @@ for z in range(25):
         player_videoID = youtube_result_1["id"]["videoId"]
         print(player_videoID)
 
-        # # 2つ目
-        # youtube_result_2 = youtube_results[1]
-        # print(youtube_result_2['snippet']['title'])
-        # print(youtube_result_2['snippet']['thumbnails']['default']['url'])
-        # player_youtube2_title = youtube_result_2['snippet']['title']
-        # player_youtube2_image_url = youtube_result_2['snippet']['thumbnails']['default']['url']
-        # player_youtube2_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_2["id"]["videoId"]
+        # # # 2つ目
+        # # youtube_result_2 = youtube_results[1]
+        # # print(youtube_result_2['snippet']['title'])
+        # # print(youtube_result_2['snippet']['thumbnails']['default']['url'])
+        # # player_youtube2_title = youtube_result_2['snippet']['title']
+        # # player_youtube2_image_url = youtube_result_2['snippet']['thumbnails']['default']['url']
+        # # player_youtube2_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_2["id"]["videoId"]
 
-        # # 3つ目
-        # youtube_result_3 = youtube_results[2]
-        # print(youtube_result_3['snippet']['title'])
-        # print(youtube_result_3['snippet']['thumbnails']['default']['url'])
-        # player_youtube3_title = youtube_result_3['snippet']['title']
-        # player_youtube3_image_url = youtube_result_3['snippet']['thumbnails']['default']['url']
-        # player_youtube3_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_3["id"]["videoId"]
-        # # -------------------------------ここまで
+        # # # 3つ目
+        # # youtube_result_3 = youtube_results[2]
+        # # print(youtube_result_3['snippet']['title'])
+        # # print(youtube_result_3['snippet']['thumbnails']['default']['url'])
+        # # player_youtube3_title = youtube_result_3['snippet']['title']
+        # # player_youtube3_image_url = youtube_result_3['snippet']['thumbnails']['default']['url']
+        # # player_youtube3_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_3["id"]["videoId"]
+        # # # -------------------------------ここまで
 
 
 
-        # 平均の体重・身長を出すために配列に格納しておく。
-        # weight_total_array.append(player_weight) # 1回目は使う。2回目はコメントアウト
-        # height_total_array.append(player_height) # 1回目は使う。2回目はコメントアウト
+        # # 平均の体重・身長を出すために配列に格納しておく。
+        # # weight_total_array.append(player_weight) # 1回目は使う。2回目はコメントアウト
+        # # height_total_array.append(player_height) # 1回目は使う。2回目はコメントアウト
 
-        # # 平均との差を出しておく。
+        # # # 平均との差を出しておく。
         player_weight_diff = player_weight - weight_average # 1回目はコメントアウト。2回目は使う
         player_height_diff = player_height - height_average # 1回目はコメントアウト。2回目は使う
 

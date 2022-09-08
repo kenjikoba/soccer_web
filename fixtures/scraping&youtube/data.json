@@ -5,7 +5,7 @@
     "fields": {
       "full_name": " Lionel Andrés Messi Cuccitini",
       "short_name": " MESSI",
-      "position": "AM,F(RC)",
+      "position": "AM(RC), F(RC)",
       "age": " 35 (Jun 24, 1987)",
       "height": 170,
       "weight": 72,
@@ -24,7 +24,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2772.png",
-      "video": "N-TuSZtyqPY",
+      "video": "p693u53Q10U",
       "foot": " Left"
     }
   },
@@ -63,7 +63,7 @@
     "fields": {
       "full_name": " Kylian Sanmi Mbappé Lottin",
       "short_name": " MBAPPÉ",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 23 (Dec 20, 1998)",
       "height": 178,
       "weight": 73,
@@ -82,7 +82,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/85260.png",
-      "video": "V8sR4syamLQ",
+      "video": "pcrwbivb2dw",
       "foot": " Right"
     }
   },
@@ -92,7 +92,7 @@
     "fields": {
       "full_name": " Mohamed Salah Ghaly",
       "short_name": " M.SALAH",
-      "position": "AM(R),F(RC)",
+      "position": "AM(R), F(RC)",
       "age": " 30 (Jun 15, 1992)",
       "height": 175,
       "weight": 72,
@@ -111,7 +111,7 @@
         "Penalties"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/52690.png",
-      "video": "4wSkL-ps6jg",
+      "video": "RkVhYWTAdWA",
       "foot": " Left"
     }
   },
@@ -121,7 +121,7 @@
     "fields": {
       "full_name": " Neymar Da Silva Santos Júnior",
       "short_name": " NEYMAR",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 30 (Feb 5, 1992)",
       "height": 174,
       "weight": 68,
@@ -140,8 +140,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/38457.png",
-      "video": "SKui6g5I3Xs",
-      "foot": "RightLeft"
+      "video": "UlPxYBawDnE",
+      "foot": "Right and Left"
     }
   },
   {
@@ -150,7 +150,7 @@
     "fields": {
       "full_name": " Cristiano Ronaldo Dos Santos Aveiro",
       "short_name": " RONALDO",
-      "position": "AM(L),F(LC)",
+      "position": "AM(L), F(LC)",
       "age": " 37 (Feb 5, 1985)",
       "height": 187,
       "weight": 80,
@@ -169,8 +169,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/1131.png",
-      "video": "J0NX6pHkkYo",
-      "foot": "RightLeft"
+      "video": "gqVc2kgZths",
+      "foot": "Right and Left"
     }
   },
   {
@@ -199,7 +199,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/3884.png",
       "video": "o4ZQMqj-QVY",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -208,7 +208,7 @@
     "fields": {
       "full_name": " Kevin De Bruyne",
       "short_name": " DE BRUYNE",
-      "position": "M,AM,F(C)",
+      "position": "M(C), AM(C), F(C)",
       "age": " 31 (Jun 28, 1991)",
       "height": 181,
       "weight": 76,
@@ -256,8 +256,8 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/53468.png",
-      "video": "E_V6U3zAoJA",
-      "foot": "RightLeft"
+      "video": "RMTwhSFYBtk",
+      "foot": "Right and Left"
     }
   },
   {
@@ -266,7 +266,7 @@
     "fields": {
       "full_name": " Son Heung-Min",
       "short_name": " SON",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 30 (Jul 8, 1992)",
       "height": 183,
       "weight": 78,
@@ -285,8 +285,8 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/45279.png",
-      "video": "77ag5co-TTA",
-      "foot": "RightLeft"
+      "video": "yJVYTOqjavc",
+      "foot": "Right and Left"
     }
   },
   {
@@ -295,7 +295,7 @@
     "fields": {
       "full_name": " Harry Edward Kane",
       "short_name": " KANE",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 29 (Jul 28, 1993)",
       "height": 188,
       "weight": 86,
@@ -324,7 +324,7 @@
     "fields": {
       "full_name": " Joshua Walter Kimmich",
       "short_name": " KIMMICH",
-      "position": "D(R),DM,M(RC)",
+      "position": "D(R), DM(RC), M(RC)",
       "age": " 27 (Feb 8, 1995)",
       "height": 176,
       "weight": 73,
@@ -372,7 +372,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68359.png",
-      "video": "PzISqqdcCAw",
+      "video": "3cpnwwgGxUw",
       "foot": " Right"
     }
   },
@@ -401,8 +401,8 @@
         "Aerial Ability"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/16053.png",
-      "video": "q2A4H183vdw",
-      "foot": "RightLeft"
+      "video": "y4FzKIJoDbU",
+      "foot": "Right and Left"
     }
   },
   {
@@ -411,7 +411,7 @@
     "fields": {
       "full_name": " Thomas Müller",
       "short_name": " MÜLLER",
-      "position": "AM,F(RC)",
+      "position": "AM(RC), F(RC)",
       "age": " 32 (Sep 13, 1989)",
       "height": 186,
       "weight": 78,
@@ -440,7 +440,7 @@
     "fields": {
       "full_name": " Sadio Mané",
       "short_name": " MANÉ",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 30 (Apr 10, 1992)",
       "height": 175,
       "weight": 69,
@@ -469,7 +469,7 @@
     "fields": {
       "full_name": " Raheem Shaquille Sterling",
       "short_name": " STERLING",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 27 (Dec 8, 1994)",
       "height": 170,
       "weight": 69,
@@ -488,7 +488,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/55579.png",
-      "video": "UwynfzGyZFw",
+      "video": "qUhpH7nYs7M",
       "foot": " Right"
     }
   },
@@ -527,7 +527,7 @@
     "fields": {
       "full_name": " Bernardo Mota Veiga De Carvalho E Silva",
       "short_name": " BERNARDO",
-      "position": "M(C),AM,F(RC)",
+      "position": "M(C), AM(RC), F(RC)",
       "age": " 28 (Aug 10, 1994)",
       "height": 173,
       "weight": 62,
@@ -546,7 +546,7 @@
         "Crossing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68182.png",
-      "video": "nHUqn_8qFhU",
+      "video": "NaCRrUjfiKU",
       "foot": " Left"
     }
   },
@@ -556,7 +556,7 @@
     "fields": {
       "full_name": " Bruno Miguel Borges Fernandes",
       "short_name": " FERNANDES",
-      "position": "M,AM(C)",
+      "position": "M(C), AM(C)",
       "age": " 28 (Sep 8, 1994)",
       "height": 179,
       "weight": 69,
@@ -575,7 +575,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64598.png",
-      "video": "u2A2n3E6hjA",
+      "video": "ZMHCa3_NiKs",
       "foot": " Right"
     }
   },
@@ -585,7 +585,7 @@
     "fields": {
       "full_name": " Marco Verratti",
       "short_name": " VERRATTI",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 29 (Nov 5, 1992)",
       "height": 165,
       "weight": 60,
@@ -614,7 +614,7 @@
     "fields": {
       "full_name": " Thiago Alcântara Do Nascimento",
       "short_name": " THIAGO",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 31 (Apr 11, 1991)",
       "height": 174,
       "weight": 71,
@@ -633,7 +633,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/39419.png",
-      "video": "0x43TeXlQ3Y",
+      "video": "gLtqD4JgH3s",
       "foot": " Right"
     }
   },
@@ -643,7 +643,7 @@
     "fields": {
       "full_name": " Toni Kroos",
       "short_name": " KROOS",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 32 (Jan 4, 1990)",
       "height": 182,
       "weight": 78,
@@ -663,7 +663,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/29738.png",
       "video": "7NCgcYZ6o7Y",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -672,7 +672,7 @@
     "fields": {
       "full_name": " Luka Modrić",
       "short_name": " MODRIĆ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 36 (Sep 9, 1985)",
       "height": 174,
       "weight": 65,
@@ -691,8 +691,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/4336.png",
-      "video": "yN-8hyZxdyg",
-      "foot": "RightLeft"
+      "video": "jQfowFfaSDo",
+      "foot": "Right and Left"
     }
   },
   {
@@ -701,7 +701,7 @@
     "fields": {
       "full_name": " N'golo Kanté",
       "short_name": " KANTÉ",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 31 (Mar 29, 1991)",
       "height": 169,
       "weight": 67,
@@ -720,7 +720,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68341.png",
-      "video": "NPEsm5o4-rs",
+      "video": "9_O6TSyYAlE",
       "foot": " Right"
     }
   },
@@ -730,7 +730,7 @@
     "fields": {
       "full_name": " Trent John Alexander-Arnold",
       "short_name": " ALEXANDER-ARNOLD",
-      "position": "D,DM,M(R)",
+      "position": "D(R), DM(R), M(R)",
       "age": " 23 (Oct 7, 1998)",
       "height": 175,
       "weight": 69,
@@ -749,7 +749,7 @@
         "Crossing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/88385.png",
-      "video": "qfTm3ElHWPU",
+      "video": "pRvQr4Bgrlc",
       "foot": " Right"
     }
   },
@@ -759,7 +759,7 @@
     "fields": {
       "full_name": " Carlos Henrique Casemiro",
       "short_name": " CASEMIRO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 30 (Feb 23, 1992)",
       "height": 184,
       "weight": 80,
@@ -778,7 +778,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/45184.png",
-      "video": "srB36hw-L4E",
+      "video": "NATZMAdu9oQ",
       "foot": " Right"
     }
   },
@@ -788,7 +788,7 @@
     "fields": {
       "full_name": " João Pedro Cavaco Cancelo",
       "short_name": " CANCELO",
-      "position": "D,DM,M(RL)",
+      "position": "D(RL), DM(RL), M(RL)",
       "age": " 28 (May 27, 1994)",
       "height": 182,
       "weight": 72,
@@ -807,7 +807,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59016.png",
-      "video": "xf32dtuL2dE",
+      "video": "dhREIMQnXRM",
       "foot": " Right"
     }
   },
@@ -817,7 +817,7 @@
     "fields": {
       "full_name": " Marcos Aoás Corrêa",
       "short_name": " MARQUINHOS",
-      "position": "D,DM(C)",
+      "position": "D(C), DM(C)",
       "age": " 28 (May 14, 1994)",
       "height": 183,
       "weight": 75,
@@ -836,7 +836,7 @@
         "Volleying"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/56786.png",
-      "video": "Bx-cX6gmor0",
+      "video": "_GSNrR8aErY",
       "foot": " Right"
     }
   },
@@ -846,7 +846,7 @@
     "fields": {
       "full_name": " David Olatukunbo Alaba",
       "short_name": " ALABA",
-      "position": "D,DM,M(LC)",
+      "position": "D(LC), DM(LC), M(LC)",
       "age": " 30 (Jun 24, 1992)",
       "height": 180,
       "weight": 75,
@@ -894,7 +894,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59194.png",
-      "video": "9Orw6a48Zgs",
+      "video": "d7S8A3i9upQ",
       "foot": " Left"
     }
   },
@@ -962,7 +962,7 @@
     "fields": {
       "full_name": " Paulo Dybala",
       "short_name": " DYBALA",
-      "position": "AM,F(RC)",
+      "position": "AM(RC), F(RC)",
       "age": " 28 (Nov 15, 1993)",
       "height": 177,
       "weight": 73,
@@ -991,7 +991,7 @@
     "fields": {
       "full_name": " Vinícius José Paixão De Oliveira Júnior",
       "short_name": " JÚNIOR",
-      "position": "AM(L),F(LC)",
+      "position": "AM(L), F(LC)",
       "age": " 22 (Jul 12, 2000)",
       "height": 176,
       "weight": 73,
@@ -1010,7 +1010,7 @@
         "Finishing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/90068.png",
-      "video": "ik4-vRuOqPk",
+      "video": "vvzO-9FpQQY",
       "foot": " Right"
     }
   },
@@ -1068,7 +1068,7 @@
         "Work Rate"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/39507.png",
-      "video": "4vzlxA8n0Ig",
+      "video": "h52TBFS7JmM",
       "foot": " Left"
     }
   },
@@ -1078,7 +1078,7 @@
     "fields": {
       "full_name": " Serge David Gnabry",
       "short_name": " GNABRY",
-      "position": "M(RL),AM,F(RLC)",
+      "position": "M(RL), AM(RLC), F(RLC)",
       "age": " 27 (Jul 14, 1995)",
       "height": 173,
       "weight": 73,
@@ -1097,7 +1097,7 @@
         "Tackling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/61101.png",
-      "video": "IsBNKjFUMZQ",
+      "video": "0JGxvNFiPKU",
       "foot": " Right"
     }
   },
@@ -1107,7 +1107,7 @@
     "fields": {
       "full_name": " Frenkie De Jong",
       "short_name": " F. DE JONG",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 25 (May 12, 1997)",
       "height": 181,
       "weight": 74,
@@ -1126,7 +1126,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/82275.png",
-      "video": "vvaHZ2is5Ho",
+      "video": "IP2s029INiE",
       "foot": " Right"
     }
   },
@@ -1136,7 +1136,7 @@
     "fields": {
       "full_name": " Jorge Resurrección Merodio",
       "short_name": " KOKE",
-      "position": "DM,AM(C),M(RLC)",
+      "position": "DM(C), AM(C), M(RLC)",
       "age": " 30 (Jan 8, 1992)",
       "height": 178,
       "weight": 74,
@@ -1155,7 +1155,7 @@
         "Passing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/41664.png",
-      "video": "ZLFOQ1hbBM0",
+      "video": "vdNlYwRH92g",
       "foot": " Right"
     }
   },
@@ -1165,7 +1165,7 @@
     "fields": {
       "full_name": " Ilkay Gündoğan",
       "short_name": " GÜNDOĞAN",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 31 (Oct 24, 1990)",
       "height": 180,
       "weight": 80,
@@ -1185,7 +1185,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/38147.png",
       "video": "5WhxvmFIb2E",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -1194,7 +1194,7 @@
     "fields": {
       "full_name": " Leon Goretzka",
       "short_name": " GORETZKA",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 27 (Feb 6, 1995)",
       "height": 189,
       "weight": 79,
@@ -1223,7 +1223,7 @@
     "fields": {
       "full_name": " Rodrigo Hernández Cascante",
       "short_name": " RODRIGO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 26 (Jun 22, 1996)",
       "height": 191,
       "weight": 85,
@@ -1242,7 +1242,7 @@
         "Aggression"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/82178.png",
-      "video": "wIZbSQwz88c",
+      "video": "lA9C2wLNCpQ",
       "foot": " Right"
     }
   },
@@ -1252,7 +1252,7 @@
     "fields": {
       "full_name": " Fábio Henrique Tavares",
       "short_name": " FABINHO",
-      "position": "D,DM(C)",
+      "position": "D(C), DM(C)",
       "age": " 28 (Oct 23, 1993)",
       "height": 188,
       "weight": 80,
@@ -1271,7 +1271,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59007.png",
-      "video": "h3cEGPkWY_0",
+      "video": "IbqpVE3Bzz4",
       "foot": " Right"
     }
   },
@@ -1281,7 +1281,7 @@
     "fields": {
       "full_name": " Andrew Robertson",
       "short_name": " ROBERTSON",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 28 (Mar 11, 1994)",
       "height": 178,
       "weight": 64,
@@ -1329,7 +1329,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/85994.png",
-      "video": "38qXEFu7THA",
+      "video": "ek6SZ9xX8uc",
       "foot": " Right"
     }
   },
@@ -1358,7 +1358,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/47392.png",
-      "video": "AJ_vf6sbs3E",
+      "video": "4mziCGsicws",
       "foot": " Right"
     }
   },
@@ -1416,7 +1416,7 @@
         "Control"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/47215.png",
-      "video": "uVYW9kZS4es",
+      "video": "2h8nTfnjYuw",
       "foot": " Right"
     }
   },
@@ -1426,7 +1426,7 @@
     "fields": {
       "full_name": " Gabriel Fernando De Jesus",
       "short_name": " G.JESUS",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Apr 3, 1997)",
       "height": 175,
       "weight": 73,
@@ -1446,7 +1446,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/80266.png",
       "video": "lXoMEBXr5Ms",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -1455,7 +1455,7 @@
     "fields": {
       "full_name": " Timo Werner",
       "short_name": " WERNER",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 26 (Mar 6, 1996)",
       "height": 181,
       "weight": 76,
@@ -1475,7 +1475,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/67935.png",
       "video": "fy1swho3K9U",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -1484,7 +1484,7 @@
     "fields": {
       "full_name": " Memphis Depay",
       "short_name": " MEMPHIS",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 28 (Feb 13, 1994)",
       "height": 177,
       "weight": 78,
@@ -1503,7 +1503,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/55043.png",
-      "video": "hi2gh77oCwM",
+      "video": "lPU4krGSGyE",
       "foot": " Right"
     }
   },
@@ -1513,7 +1513,7 @@
     "fields": {
       "full_name": " Roberto Firmino Barbosa De Oliveira",
       "short_name": " FIRMINO",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 30 (Oct 2, 1991)",
       "height": 181,
       "weight": 76,
@@ -1532,7 +1532,7 @@
         "Penalties"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/44009.png",
-      "video": "2mlNH8It68Q",
+      "video": "1IK8Ti33vkY",
       "foot": " Right"
     }
   },
@@ -1542,7 +1542,7 @@
     "fields": {
       "full_name": " Antoine Griezmann",
       "short_name": " GRIEZMANN",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 31 (Mar 21, 1991)",
       "height": 176,
       "weight": 73,
@@ -1561,7 +1561,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/41780.png",
-      "video": "u-fcA3A-BvM",
+      "video": "rfcoqizCWkI",
       "foot": " Left"
     }
   },
@@ -1571,7 +1571,7 @@
     "fields": {
       "full_name": " Marcus Rashford",
       "short_name": " RASHFORD",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 24 (Oct 31, 1997)",
       "height": 185,
       "weight": 70,
@@ -1600,7 +1600,7 @@
     "fields": {
       "full_name": " Diogo José Teixeira Da Silva",
       "short_name": " DIOGO J.",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Dec 4, 1996)",
       "height": 178,
       "weight": 70,
@@ -1608,8 +1608,8 @@
       "weight_diff": -5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/78093.png",
-      "video": "ijTiszfoO8I",
-      "foot": "RightLeft"
+      "video": "09BodSMST1M",
+      "foot": "Right and Left"
     }
   },
   {
@@ -1618,7 +1618,7 @@
     "fields": {
       "full_name": " Gerard Moreno Balagueró",
       "short_name": " MORENO",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 30 (Apr 7, 1992)",
       "height": 177,
       "weight": 75,
@@ -1637,7 +1637,7 @@
         "Long Shots"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64398.png",
-      "video": "jUvobSCwRjQ",
+      "video": "-jifxKjDDjg",
       "foot": " Left"
     }
   },
@@ -1666,8 +1666,8 @@
         "Control"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/53822.png",
-      "video": "zVq45Y4R4ig",
-      "foot": "RightLeft"
+      "video": "qq7HNJdn6rc",
+      "foot": "Right and Left"
     }
   },
   {
@@ -1676,7 +1676,7 @@
     "fields": {
       "full_name": " Pierre-Emerick Emiliano François Aubameyang",
       "short_name": " AUBAMEYANG",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 33 (Jun 18, 1989)",
       "height": 187,
       "weight": 80,
@@ -1695,8 +1695,8 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/34634.png",
-      "video": "ygNmBn5TftM",
-      "foot": "RightLeft"
+      "video": "UzN_Ow_1fGA",
+      "foot": "Right and Left"
     }
   },
   {
@@ -1724,7 +1724,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/82491.png",
-      "video": "lyjzIHAeDLw",
+      "video": "rmqZ6I0MrhU",
       "foot": " Right"
     }
   },
@@ -1734,7 +1734,7 @@
     "fields": {
       "full_name": " Mason Tony Mount",
       "short_name": " MOUNT",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 23 (Jan 10, 1999)",
       "height": 178,
       "weight": 64,
@@ -1742,7 +1742,7 @@
       "weight_diff": -11,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/90932.png",
-      "video": "ALoNyLMdDzM",
+      "video": "qCCXn-xjiNo",
       "foot": " Right"
     }
   },
@@ -1752,7 +1752,7 @@
     "fields": {
       "full_name": " Philip Walter Foden",
       "short_name": " FODEN",
-      "position": "M(C),AM,F(RLC)",
+      "position": "M(C), AM(RLC), F(RLC)",
       "age": " 22 (May 28, 2000)",
       "height": 171,
       "weight": 59,
@@ -1781,7 +1781,7 @@
     "fields": {
       "full_name": " Christopher Alan Nkunku",
       "short_name": " NKUNKU",
-      "position": "M,AM,F(RLC)",
+      "position": "M(RLC), AM(RLC), F(RLC)",
       "age": " 24 (Nov 14, 1997)",
       "height": 175,
       "weight": 70,
@@ -1800,7 +1800,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/85984.png",
-      "video": "bykOZvJaNGM",
+      "video": "439zpW9fVss",
       "foot": " Right"
     }
   },
@@ -1810,7 +1810,7 @@
     "fields": {
       "full_name": " Luis Alberto Romero Alconchel",
       "short_name": " ALBERTO",
-      "position": "M,AM(C)",
+      "position": "M(C), AM(C)",
       "age": " 29 (Sep 28, 1992)",
       "height": 182,
       "weight": 70,
@@ -1829,7 +1829,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/46583.png",
-      "video": "OTL9z0M331w",
+      "video": "ixL6Dwmk8CI",
       "foot": " Right"
     }
   },
@@ -1839,7 +1839,7 @@
     "fields": {
       "full_name": " Marco Reus",
       "short_name": " REUS",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 33 (May 31, 1989)",
       "height": 180,
       "weight": 75,
@@ -1859,7 +1859,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/35346.png",
       "video": "ZKecJ1Dk-WA",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -1868,7 +1868,7 @@
     "fields": {
       "full_name": " Luis Fernando Díaz Marulanda",
       "short_name": " LUIS DÍAZ",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 25 (Jan 13, 1997)",
       "height": 180,
       "weight": 70,
@@ -1897,7 +1897,7 @@
     "fields": {
       "full_name": " Jadon Malik Sancho",
       "short_name": " SANCHO",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 22 (Mar 25, 2000)",
       "height": 180,
       "weight": 76,
@@ -1926,7 +1926,7 @@
     "fields": {
       "full_name": " Federico Chiesa",
       "short_name": " CHIESA",
-      "position": "M,AM(RL),F(RLC)",
+      "position": "M(RL), AM(RL), F(RLC)",
       "age": " 24 (Oct 25, 1997)",
       "height": 175,
       "weight": 70,
@@ -1955,7 +1955,7 @@
     "fields": {
       "full_name": " Mikel Oyarzabal Ugarte",
       "short_name": " OYARZABAL",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 25 (Apr 21, 1997)",
       "height": 180,
       "weight": 75,
@@ -1984,7 +1984,7 @@
     "fields": {
       "full_name": " Leroy Aziz Sané",
       "short_name": " SANÈ",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 26 (Jan 11, 1996)",
       "height": 184,
       "weight": 72,
@@ -2003,7 +2003,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/73265.png",
-      "video": "WsXxh7FdRYY",
+      "video": "3nq05x217tI",
       "foot": " Left"
     }
   },
@@ -2013,7 +2013,7 @@
     "fields": {
       "full_name": " Kingsley Coman",
       "short_name": " COMAN",
-      "position": "M,AM,F(RL)",
+      "position": "M(RL), AM(RL), F(RL)",
       "age": " 26 (Jun 13, 1996)",
       "height": 178,
       "weight": 71,
@@ -2031,7 +2031,7 @@
     "fields": {
       "full_name": " Riyad Karim Mahrez",
       "short_name": " MAHREZ",
-      "position": "AM(RC),F(R)",
+      "position": "AM(RC), F(R)",
       "age": " 31 (Feb 21, 1991)",
       "height": 178,
       "weight": 62,
@@ -2060,7 +2060,7 @@
     "fields": {
       "full_name": " Ángel Fabián Di María",
       "short_name": " DI MARÍA",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 34 (Feb 14, 1988)",
       "height": 180,
       "weight": 70,
@@ -2089,7 +2089,7 @@
     "fields": {
       "full_name": " Daniel Parejo Muñoz",
       "short_name": " PAREJO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 33 (Apr 16, 1989)",
       "height": 180,
       "weight": 75,
@@ -2118,7 +2118,7 @@
     "fields": {
       "full_name": " Nicolò Barella",
       "short_name": " BARELLA",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 25 (Feb 7, 1997)",
       "height": 172,
       "weight": 68,
@@ -2137,7 +2137,7 @@
         "Marking"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/81621.png",
-      "video": "Gh3SLQymW2w",
+      "video": "ob31XkfaTY8",
       "foot": " Right"
     }
   },
@@ -2147,7 +2147,7 @@
     "fields": {
       "full_name": " Santiago Federico Valverde Dipetta",
       "short_name": " VALVERDE",
-      "position": "D,DM(R),M,AM(RC)",
+      "position": "D(R), DM(R), M(RC), AM(RC)",
       "age": " 24 (Jul 22, 1998)",
       "height": 182,
       "weight": 67,
@@ -2166,7 +2166,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/81249.png",
-      "video": "WSqEfiV2mC0",
+      "video": "CgXzuJMLGHw",
       "foot": " Right"
     }
   },
@@ -2176,7 +2176,7 @@
     "fields": {
       "full_name": " Marcos Llorente Moreno",
       "short_name": " LLORENTE",
-      "position": "D(R),DM,M,AM(RC)",
+      "position": "D(R), DM(RC), M(RC), AM(RC)",
       "age": " 27 (Jan 30, 1995)",
       "height": 182,
       "weight": 65,
@@ -2205,7 +2205,7 @@
     "fields": {
       "full_name": " Sergej Milinković-Savić",
       "short_name": " MILINKOVIĆ-SAVIĆ",
-      "position": "M,AM(C)",
+      "position": "M(C), AM(C)",
       "age": " 27 (Feb 27, 1995)",
       "height": 192,
       "weight": 84,
@@ -2234,7 +2234,7 @@
     "fields": {
       "full_name": " Paul Labile Pogba",
       "short_name": " POGBA",
-      "position": "DM(C),M,AM(LC)",
+      "position": "DM(C), M(LC), AM(LC)",
       "age": " 29 (Mar 15, 1993)",
       "height": 191,
       "weight": 84,
@@ -2253,8 +2253,8 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/52519.png",
-      "video": "2JPS7NDblpA",
-      "foot": "RightLeft"
+      "video": "25Qk_Q0dWrc",
+      "foot": "Right and Left"
     }
   },
   {
@@ -2263,7 +2263,7 @@
     "fields": {
       "full_name": " Mateo Kovačić",
       "short_name": " KOVAČIĆ",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 28 (May 6, 1994)",
       "height": 181,
       "weight": 75,
@@ -2282,8 +2282,8 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/47427.png",
-      "video": "KczJ9yxELaA",
-      "foot": "RightLeft"
+      "video": "z-rfez3Jc-0",
+      "foot": "Right and Left"
     }
   },
   {
@@ -2292,7 +2292,7 @@
     "fields": {
       "full_name": " Jordan Brian Henderson",
       "short_name": " HENDERSON",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 32 (Jun 17, 1990)",
       "height": 182,
       "weight": 67,
@@ -2311,7 +2311,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/36211.png",
-      "video": "_1z0QpyC0tc",
+      "video": "pQ7SWjnUxIE",
       "foot": " Right"
     }
   },
@@ -2321,7 +2321,7 @@
     "fields": {
       "full_name": " Georginio Gregion Emile Wijnaldum",
       "short_name": " WIJNALDUM",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 31 (Nov 11, 1990)",
       "height": 175,
       "weight": 68,
@@ -2350,7 +2350,7 @@
     "fields": {
       "full_name": " Jorge Luiz Frello Filho",
       "short_name": " JORGINHO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 30 (Dec 20, 1991)",
       "height": 180,
       "weight": 65,
@@ -2369,8 +2369,8 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/54042.png",
-      "video": "OjAUTduO_Fk",
-      "foot": "RightLeft"
+      "video": "uVMAJescWCY",
+      "foot": "Right and Left"
     }
   },
   {
@@ -2379,7 +2379,7 @@
     "fields": {
       "full_name": " Marcelo Brozović",
       "short_name": " BROZOVIĆ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 29 (Nov 16, 1992)",
       "height": 181,
       "weight": 73,
@@ -2387,8 +2387,8 @@
       "weight_diff": -2,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/49196.png",
-      "video": "0S0U8oYbuCA",
-      "foot": "RightLeft"
+      "video": "59IaK-DLb5I",
+      "foot": "Right and Left"
     }
   },
   {
@@ -2397,7 +2397,7 @@
     "fields": {
       "full_name": " Thomas Teye Partey",
       "short_name": " THOMAS",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 29 (Jun 13, 1993)",
       "height": 185,
       "weight": 75,
@@ -2416,7 +2416,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68785.png",
-      "video": "iszO5yAUfkM",
+      "video": "ESHUuA9boAE",
       "foot": " Right"
     }
   },
@@ -2426,7 +2426,7 @@
     "fields": {
       "full_name": " Sergio Busquets I Burgos",
       "short_name": " SERGIO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 34 (Jul 16, 1988)",
       "height": 189,
       "weight": 76,
@@ -2445,7 +2445,7 @@
         "Marking"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/35330.png",
-      "video": "Q6wGyzHjNJo",
+      "video": "EEyUj_kKqqc",
       "foot": " Right"
     }
   },
@@ -2455,7 +2455,7 @@
     "fields": {
       "full_name": " Reece James",
       "short_name": " JAMES",
-      "position": "D(RC),DM,M(R)",
+      "position": "D(RC), DM(R), M(R)",
       "age": " 22 (Dec 8, 1999)",
       "height": 182,
       "weight": 82,
@@ -2474,7 +2474,7 @@
         "Long Shots"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/97662.png",
-      "video": "cQpDwQNEcrg",
+      "video": "rO3nqiZvm4c",
       "foot": " Right"
     }
   },
@@ -2484,7 +2484,7 @@
     "fields": {
       "full_name": " Achraf Hakimi",
       "short_name": " HAKIMI",
-      "position": "D,DM,M,AM(RL)",
+      "position": "D(RL), DM(RL), M(RL), AM(RL)",
       "age": " 23 (Nov 4, 1998)",
       "height": 180,
       "weight": 70,
@@ -2502,7 +2502,7 @@
     "fields": {
       "full_name": " Alphonso Boyle Davies",
       "short_name": " DAVIES",
-      "position": "D,DM,M,AM(L)",
+      "position": "D(L), DM(L), M(L), AM(L)",
       "age": " 21 (Nov 2, 2000)",
       "height": 181,
       "weight": 73,
@@ -2531,7 +2531,7 @@
     "fields": {
       "full_name": " Theo Bernard François Hernández",
       "short_name": " HERNÁNDEZ",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 24 (Oct 6, 1997)",
       "height": 184,
       "weight": 78,
@@ -2550,7 +2550,7 @@
         "Aggression"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/85388.png",
-      "video": "Gd0AiEi_T68",
+      "video": "CyTzvniRX2I",
       "foot": " Left"
     }
   },
@@ -2560,7 +2560,7 @@
     "fields": {
       "full_name": " Daniel Carvajal Ramos",
       "short_name": " CARVAJAL",
-      "position": "D,DM(R)",
+      "position": "D(R), DM(R)",
       "age": " 30 (Jan 11, 1992)",
       "height": 173,
       "weight": 73,
@@ -2589,7 +2589,7 @@
     "fields": {
       "full_name": " Kyle Andrew Walker",
       "short_name": " WALKER",
-      "position": "D(RC),DM,M(R)",
+      "position": "D(RC), DM(R), M(R)",
       "age": " 32 (May 28, 1990)",
       "height": 178,
       "weight": 73,
@@ -2608,7 +2608,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/37853.png",
-      "video": "SVPkrhJIoew",
+      "video": "M84cJWinwVc",
       "foot": " Right"
     }
   },
@@ -2618,7 +2618,7 @@
     "fields": {
       "full_name": " Jordi Alba Ramos",
       "short_name": " JORDI ALBA",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 33 (Mar 21, 1989)",
       "height": 170,
       "weight": 68,
@@ -2684,8 +2684,8 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/87683.png",
-      "video": "8T3QHCzlQyY",
-      "foot": "RightLeft"
+      "video": "MYArBsN5xrk",
+      "foot": "Right and Left"
     }
   },
   {
@@ -2713,7 +2713,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/61438.png",
-      "video": "e1IX-CdT_ag",
+      "video": "1dFVEc9A0aI",
       "foot": " Left"
     }
   },
@@ -2829,7 +2829,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/17403.png",
-      "video": "xZ7KRcGs7_E",
+      "video": "_FabZ3AqZfE",
       "foot": " Right"
     }
   },
@@ -2839,7 +2839,7 @@
     "fields": {
       "full_name": " Lucas Francois Bernard Hernández",
       "short_name": " HERNÁNDEZ",
-      "position": "D(LC),DM(L)",
+      "position": "D(LC), DM(L)",
       "age": " 26 (Feb 14, 1996)",
       "height": 184,
       "weight": 76,
@@ -2858,7 +2858,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/74306.png",
-      "video": "Gd0AiEi_T68",
+      "video": "2EW5NL8Hp8w",
       "foot": " Left"
     }
   },
@@ -3010,7 +3010,7 @@
         "Tackling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/51661.png",
-      "video": "8HWBqop21QY",
+      "video": "epzOo6WxPJw",
       "foot": " Right"
     }
   },
@@ -3039,7 +3039,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/43275.png",
-      "video": "2ILR9nuKHNg",
+      "video": "Cn1Ey5RpmQE",
       "foot": " Right"
     }
   },
@@ -3068,7 +3068,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/18338.png",
-      "video": "U_-b4XMSQog",
+      "video": "QCy4PpMS3hA",
       "foot": " Right"
     }
   },
@@ -3097,7 +3097,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2950.png",
-      "video": "ZL54xup_WLw",
+      "video": "wwGVUloEOxU",
       "foot": " Right"
     }
   },
@@ -3155,7 +3155,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59322.png",
-      "video": "v8XuMsVxTxc",
+      "video": "e219vc7x8is",
       "foot": " Right"
     }
   },
@@ -3213,7 +3213,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/25010.png",
-      "video": "M-z6UYG2uGI",
+      "video": "vAE9GZ3OKzg",
       "foot": " Right"
     }
   },
@@ -3271,7 +3271,7 @@
         "Volleying"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2645.png",
-      "video": "B4I30Ei11WQ",
+      "video": "xWkTSYNf8nU",
       "foot": " Right"
     }
   },
@@ -3281,7 +3281,7 @@
     "fields": {
       "full_name": " Richarlison De Andrade",
       "short_name": " RICHARLISON",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (May 10, 1997)",
       "height": 184,
       "weight": 73,
@@ -3300,7 +3300,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/81994.png",
-      "video": "TGypnOCfRO8",
+      "video": "HB1wnxJT0bo",
       "foot": " Right"
     }
   },
@@ -3310,7 +3310,7 @@
     "fields": {
       "full_name": " João Félix Sequeira",
       "short_name": " FÉLIX",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 22 (Nov 10, 1999)",
       "height": 180,
       "weight": 70,
@@ -3329,7 +3329,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/89761.png",
-      "video": "H1jzNp_Dcbo",
+      "video": "Un3cmJ3Hy0c",
       "foot": " Right"
     }
   },
@@ -3339,7 +3339,7 @@
     "fields": {
       "full_name": " Kai Lukas Havertz",
       "short_name": " HAVERTZ",
-      "position": "M(C),AM,F(RC)",
+      "position": "M(C), AM(RC), F(RC)",
       "age": " 23 (Jun 11, 1999)",
       "height": 189,
       "weight": 77,
@@ -3368,7 +3368,7 @@
     "fields": {
       "full_name": " Ángel Martin Correa",
       "short_name": " CORREA",
-      "position": "AM,F(RC)",
+      "position": "AM(RC), F(RC)",
       "age": " 27 (Mar 9, 1995)",
       "height": 171,
       "weight": 70,
@@ -3387,7 +3387,7 @@
         "Finishing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/66894.png",
-      "video": "sLtKG22rHAg",
+      "video": "9PGmkhQiStA",
       "foot": " Right"
     }
   },
@@ -3397,7 +3397,7 @@
     "fields": {
       "full_name": " Lorenzo Insigne",
       "short_name": " INSIGNE",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 31 (Jun 4, 1991)",
       "height": 163,
       "weight": 59,
@@ -3434,7 +3434,7 @@
       "weight_diff": -4,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/68181.png",
-      "video": "U_-b4XMSQog",
+      "video": "WfHlvAU8Xyw",
       "foot": " Right"
     }
   },
@@ -3463,7 +3463,7 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/47150.png",
-      "video": "UJlmzU8i2J4",
+      "video": "4cYHP5rtLFo",
       "foot": " Right"
     }
   },
@@ -3492,7 +3492,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/6378.png",
-      "video": "vrd50PrlCOI",
+      "video": "qDXylmeJmTQ",
       "foot": " Right"
     }
   },
@@ -3521,7 +3521,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/84966.png",
-      "video": "4rR5RVa6fRg",
+      "video": "WY8S9BKCLZI",
       "foot": " Left"
     }
   },
@@ -3607,7 +3607,7 @@
     "fields": {
       "full_name": " Álvaro Borja Morata Martín",
       "short_name": " MORATA",
-      "position": "AM(L),F(LC)",
+      "position": "AM(L), F(LC)",
       "age": " 29 (Oct 23, 1992)",
       "height": 187,
       "weight": 85,
@@ -3626,7 +3626,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/45710.png",
-      "video": "7Vuus5ihfQE",
+      "video": "AMSVSsbiEHc",
       "foot": " Right"
     }
   },
@@ -3684,7 +3684,7 @@
         "Long Throws"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/17811.png",
-      "video": "4ncyYVV5W1E",
+      "video": "LVY0zHPATGo",
       "foot": " Right"
     }
   },
@@ -3713,7 +3713,7 @@
         "Long Throws"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/15177.png",
-      "video": "WHGNmcp_ftQ",
+      "video": "VLIJ1oGs5WE",
       "foot": " Left"
     }
   },
@@ -3743,7 +3743,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/14540.png",
       "video": "OdK3U_KaO5w",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -3771,8 +3771,8 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2386.png",
-      "video": "gbGcjYjOKlk",
-      "foot": "RightLeft"
+      "video": "ln35qLphK4I",
+      "foot": "Right and Left"
     }
   },
   {
@@ -3781,7 +3781,7 @@
     "fields": {
       "full_name": " Lucas Tolentino Coelho De Lima",
       "short_name": " L. PAQUETÁ",
-      "position": "M(C),AM,F(RC)",
+      "position": "M(C), AM(RC), F(RC)",
       "age": " 25 (Aug 27, 1997)",
       "height": 180,
       "weight": 72,
@@ -3800,7 +3800,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/87087.png",
-      "video": "0q8nywYAI94",
+      "video": "vZscBnS4TI0",
       "foot": " Left"
     }
   },
@@ -3810,7 +3810,7 @@
     "fields": {
       "full_name": " Lorenzo Pellegrini",
       "short_name": " PELLEGRINI",
-      "position": "DM,M(C),AM(LC)",
+      "position": "DM(C), M(C), AM(LC)",
       "age": " 26 (Jun 19, 1996)",
       "height": 188,
       "weight": 77,
@@ -3839,7 +3839,7 @@
     "fields": {
       "full_name": " James Daniel Maddison",
       "short_name": " MADDISON",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 25 (Nov 23, 1996)",
       "height": 179,
       "weight": 73,
@@ -3858,7 +3858,7 @@
         "Work Rate"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/76578.png",
-      "video": "r8vS6ZRnBmQ",
+      "video": "yECc5sfdPa8",
       "foot": " Right"
     }
   },
@@ -3868,7 +3868,7 @@
     "fields": {
       "full_name": " Martin Ødegaard",
       "short_name": " ODEGAARD",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 23 (Dec 17, 1998)",
       "height": 175,
       "weight": 60,
@@ -3897,7 +3897,7 @@
     "fields": {
       "full_name": " Julian Brandt",
       "short_name": " BRANDT",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 26 (May 2, 1996)",
       "height": 183,
       "weight": 82,
@@ -3916,7 +3916,7 @@
         "Finishing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/71893.png",
-      "video": "JuBKokHQ2r8",
+      "video": "PscqisUBCls",
       "foot": " Right"
     }
   },
@@ -3926,7 +3926,7 @@
     "fields": {
       "full_name": " Jack Peter Grealish",
       "short_name": " GREALISH",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 26 (Sep 10, 1995)",
       "height": 175,
       "weight": 68,
@@ -3952,7 +3952,7 @@
       "weight_diff": -3,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/68130.png",
-      "video": "GK25-Fxt1R8",
+      "video": "jKUVsBoAS60",
       "foot": " Left"
     }
   },
@@ -3962,7 +3962,7 @@
     "fields": {
       "full_name": " Hakim Ziyech",
       "short_name": " ZIYECH",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 29 (Mar 19, 1993)",
       "height": 181,
       "weight": 70,
@@ -3981,7 +3981,7 @@
         "Volleying"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/58838.png",
-      "video": "2jh_JWg_DjU",
+      "video": "I4vqbcoWMbQ",
       "foot": " Left"
     }
   },
@@ -3991,7 +3991,7 @@
     "fields": {
       "full_name": " Hakan Çalhanoğlu",
       "short_name": " ÇALHANOĞLU",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 28 (Feb 8, 1994)",
       "height": 178,
       "weight": 76,
@@ -4010,7 +4010,7 @@
         "Determination"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/54915.png",
-      "video": "TUoTLBWnzQE",
+      "video": "zlPEd_ex0-0",
       "foot": " Right"
     }
   },
@@ -4020,7 +4020,7 @@
     "fields": {
       "full_name": " Christian Dannemann Eriksen",
       "short_name": " ERIKSEN",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 30 (Feb 14, 1992)",
       "height": 182,
       "weight": 71,
@@ -4039,8 +4039,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/43493.png",
-      "video": "NfJ4j7KCE1c",
-      "foot": "RightLeft"
+      "video": "JmFlfE_HTNM",
+      "foot": "Right and Left"
     }
   },
   {
@@ -4049,7 +4049,7 @@
     "fields": {
       "full_name": " Philippe Coutinho Correia",
       "short_name": " COUTINHO",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 30 (Jun 12, 1992)",
       "height": 171,
       "weight": 68,
@@ -4078,7 +4078,7 @@
     "fields": {
       "full_name": " Sergio Canales Madrazo",
       "short_name": " CANALES",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 31 (Feb 16, 1991)",
       "height": 179,
       "weight": 70,
@@ -4107,7 +4107,7 @@
     "fields": {
       "full_name": " Dušan Tadić",
       "short_name": " TADIĆ",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 33 (Nov 20, 1988)",
       "height": 181,
       "weight": 76,
@@ -4136,7 +4136,7 @@
     "fields": {
       "full_name": " Alejandro Darío Gómez",
       "short_name": " GÓMEZ",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 34 (Feb 15, 1988)",
       "height": 167,
       "weight": 68,
@@ -4165,7 +4165,7 @@
     "fields": {
       "full_name": " Bukayo Saka",
       "short_name": " SAKA",
-      "position": "M,AM,F(RL)",
+      "position": "M(RL), AM(RL), F(RL)",
       "age": " 21 (Sep 5, 2001)",
       "height": 178,
       "weight": 73,
@@ -4194,7 +4194,7 @@
     "fields": {
       "full_name": " Moussa Diaby",
       "short_name": " DIABY",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 23 (Jul 7, 1999)",
       "height": 170,
       "weight": 67,
@@ -4213,7 +4213,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/94071.png",
-      "video": "I62xfcIfTiY",
+      "video": "lShIluMg2gc",
       "foot": " Left"
     }
   },
@@ -4223,7 +4223,7 @@
     "fields": {
       "full_name": " Rafael Alexandre Da Conceição Leão",
       "short_name": " LEÃO",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 23 (Jun 10, 1999)",
       "height": 186,
       "weight": 72,
@@ -4252,7 +4252,7 @@
     "fields": {
       "full_name": " Raphael Dias Belloli",
       "short_name": " RAPHINHA",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 25 (Dec 14, 1996)",
       "height": 176,
       "weight": 70,
@@ -4281,7 +4281,7 @@
     "fields": {
       "full_name": " Christian Mate Pulišić",
       "short_name": " PULISIC",
-      "position": "M(RL),AM,F(RLC)",
+      "position": "M(RL), AM(RLC), F(RLC)",
       "age": " 23 (Sep 18, 1998)",
       "height": 179,
       "weight": 70,
@@ -4300,8 +4300,8 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/85046.png",
-      "video": "V5mqZ_enW3g",
-      "foot": "RightLeft"
+      "video": "1UUkuJPfWZI",
+      "foot": "Right and Left"
     }
   },
   {
@@ -4310,7 +4310,7 @@
     "fields": {
       "full_name": " Ousmane Dembélé",
       "short_name": " O. DEMBÉLÉ",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (May 15, 1997)",
       "height": 178,
       "weight": 67,
@@ -4330,7 +4330,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/84046.png",
       "video": "5wU2jTwAVLQ",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -4339,7 +4339,7 @@
     "fields": {
       "full_name": " Marco Asensio Willemsen",
       "short_name": " ASENSIO",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 26 (Jan 21, 1996)",
       "height": 178,
       "weight": 70,
@@ -4358,7 +4358,7 @@
         "Long Shots"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/71047.png",
-      "video": "ZHhZ-AeOFJc",
+      "video": "PDgMI76Gifc",
       "foot": " Left"
     }
   },
@@ -4368,7 +4368,7 @@
     "fields": {
       "full_name": " Domenico Berardi",
       "short_name": " BERARDI",
-      "position": "AM(R),F(RC)",
+      "position": "AM(R), F(RC)",
       "age": " 28 (Aug 1, 1994)",
       "height": 185,
       "weight": 72,
@@ -4397,7 +4397,7 @@
     "fields": {
       "full_name": " Yannick Ferreira Carrasco",
       "short_name": " CARRASCO",
-      "position": "M,AM(RL)",
+      "position": "M(RL), AM(RL)",
       "age": " 29 (Sep 4, 1993)",
       "height": 181,
       "weight": 67,
@@ -4426,7 +4426,7 @@
     "fields": {
       "full_name": " Lucas Ariel Ocampos",
       "short_name": " OCAMPOS",
-      "position": "M,AM(RL)",
+      "position": "M(RL), AM(RL)",
       "age": " 28 (Jul 11, 1994)",
       "height": 187,
       "weight": 80,
@@ -4445,8 +4445,8 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/52051.png",
-      "video": "Xb-S0xfU7G0",
-      "foot": "RightLeft"
+      "video": "836Fx6Ned28",
+      "foot": "Right and Left"
     }
   },
   {
@@ -4455,7 +4455,7 @@
     "fields": {
       "full_name": " Ivan Perišić",
       "short_name": " PERIŠIĆ",
-      "position": "M,AM(RL)",
+      "position": "M(RL), AM(RL)",
       "age": " 33 (Feb 2, 1989)",
       "height": 186,
       "weight": 80,
@@ -4474,8 +4474,8 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/38475.png",
-      "video": "dgUTKdR6Izo",
-      "foot": "RightLeft"
+      "video": "Ykf59U_siOQ",
+      "foot": "Right and Left"
     }
   },
   {
@@ -4484,7 +4484,7 @@
     "fields": {
       "full_name": " Eden Michael Hazard",
       "short_name": " HAZARD",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 31 (Jan 7, 1991)",
       "height": 173,
       "weight": 74,
@@ -4504,7 +4504,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/32924.png",
       "video": "XJYNSuRyjIs",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -4513,7 +4513,7 @@
     "fields": {
       "full_name": " Pedro González López",
       "short_name": " PEDRI",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 19 (Nov 25, 2002)",
       "height": 174,
       "weight": 60,
@@ -4521,8 +4521,8 @@
       "weight_diff": -15,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/102243.png",
-      "video": "JyiUHyOBoHo",
-      "foot": "RightLeft"
+      "video": "fA_DlXxDfk0",
+      "foot": "Right and Left"
     }
   },
   {
@@ -4531,7 +4531,7 @@
     "fields": {
       "full_name": " Carlos Soler Barragán",
       "short_name": " SOLER",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 25 (Jan 2, 1997)",
       "height": 183,
       "weight": 75,
@@ -4550,7 +4550,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/86919.png",
-      "video": "hq07WfDejKg",
+      "video": "GCiqV7UGNrk",
       "foot": " Right"
     }
   },
@@ -4560,7 +4560,7 @@
     "fields": {
       "full_name": " Rodrigo Bentancur Colmán",
       "short_name": " BENTANCUR",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 25 (Jun 25, 1997)",
       "height": 185,
       "weight": 72,
@@ -4579,7 +4579,7 @@
         "Aggression"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/81732.png",
-      "video": "oFsGG9qqxU8",
+      "video": "sJ-wuxphUoA",
       "foot": " Right"
     }
   },
@@ -4589,7 +4589,7 @@
     "fields": {
       "full_name": " Joan Jordán Moreno",
       "short_name": " JORDÁN",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 28 (Jul 6, 1994)",
       "height": 184,
       "weight": 74,
@@ -4597,7 +4597,7 @@
       "weight_diff": -1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/79249.png",
-      "video": "cHd-0jtTMLI",
+      "video": "ZUqXvvRGdRo",
       "foot": " Right"
     }
   },
@@ -4607,7 +4607,7 @@
     "fields": {
       "full_name": " Fabián Ruiz Peña",
       "short_name": " RUIZ",
-      "position": "DM,AM(C),M(RLC)",
+      "position": "DM(C), AM(C), M(RLC)",
       "age": " 26 (Apr 3, 1996)",
       "height": 189,
       "weight": 77,
@@ -4615,7 +4615,7 @@
       "weight_diff": 2,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/78086.png",
-      "video": "irdCNo0Fr6Y",
+      "video": "HzgXlAODFEo",
       "foot": " Left"
     }
   },
@@ -4625,7 +4625,7 @@
     "fields": {
       "full_name": " Adrien Rabiot-Provost",
       "short_name": " RABIOT",
-      "position": "DM(C),M(LC)",
+      "position": "DM(C), M(LC)",
       "age": " 27 (Apr 3, 1995)",
       "height": 188,
       "weight": 71,
@@ -4644,7 +4644,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/57953.png",
-      "video": "dhl9cbOIBTo",
+      "video": "7E_lpO314Mw",
       "foot": " Left"
     }
   },
@@ -4654,7 +4654,7 @@
     "fields": {
       "full_name": " João Filipe Iria Santos Moutinho",
       "short_name": " MOUTINHO",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 36 (Sep 8, 1986)",
       "height": 171,
       "weight": 65,
@@ -4673,7 +4673,7 @@
         "Long Passing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/3342.png",
-      "video": "VRo-v_05lPI",
+      "video": "xjHF0yCdvug",
       "foot": " Right"
     }
   },
@@ -4683,7 +4683,7 @@
     "fields": {
       "full_name": " Jude Victor William Bellingham",
       "short_name": " BELLINGHAM",
-      "position": "DM(C),M,AM(RLC)",
+      "position": "DM(C), M(RLC), AM(RLC)",
       "age": " 19 (Jun 29, 2003)",
       "height": 185,
       "weight": 75,
@@ -4712,7 +4712,7 @@
     "fields": {
       "full_name": " Franck Yannick Kessié",
       "short_name": " KESSIÉ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 25 (Dec 19, 1996)",
       "height": 183,
       "weight": 76,
@@ -4731,7 +4731,7 @@
         "Passing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/77442.png",
-      "video": "hZ5fuwvKW-E",
+      "video": "-kvzRFCC_P4",
       "foot": " Right"
     }
   },
@@ -4741,7 +4741,7 @@
     "fields": {
       "full_name": " Mikel Merino Zazón",
       "short_name": " MERINO",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 26 (Jun 22, 1996)",
       "height": 188,
       "weight": 78,
@@ -4770,7 +4770,7 @@
     "fields": {
       "full_name": " Youri Marion A. Tielemans",
       "short_name": " TIELEMANS",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 25 (May 7, 1997)",
       "height": 177,
       "weight": 75,
@@ -4790,7 +4790,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/67729.png",
       "video": "KwgGetO1XVs",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -4799,7 +4799,7 @@
     "fields": {
       "full_name": " Rodrigo Javier De Paul",
       "short_name": " DE PAUL",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 28 (May 24, 1994)",
       "height": 180,
       "weight": 70,
@@ -4819,7 +4819,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64586.png",
       "video": "rFuuKvaOHgg",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -4828,7 +4828,7 @@
     "fields": {
       "full_name": " Piotr Sebastian Zieliński",
       "short_name": " ZIELINSKI",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 28 (May 20, 1994)",
       "height": 180,
       "weight": 75,
@@ -4848,7 +4848,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64152.png",
       "video": "MzdYzh_MFkQ",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -4857,7 +4857,7 @@
     "fields": {
       "full_name": " Marcel Sabitzer",
       "short_name": " SABITZER",
-      "position": "M,AM(RLC)",
+      "position": "M(RLC), AM(RLC)",
       "age": " 28 (Mar 17, 1994)",
       "height": 177,
       "weight": 74,
@@ -4886,7 +4886,7 @@
     "fields": {
       "full_name": " Saúl Ñíguez Esclápez",
       "short_name": " NÍGUEZ",
-      "position": "DM,AM(C),M(RLC)",
+      "position": "DM(C), AM(C), M(RLC)",
       "age": " 27 (Nov 21, 1994)",
       "height": 184,
       "weight": 70,
@@ -4905,7 +4905,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/46736.png",
-      "video": "xHQYnCRtzog",
+      "video": "ldzkuHDtm7Q",
       "foot": " Left"
     }
   },
@@ -4915,7 +4915,7 @@
     "fields": {
       "full_name": " Ivan Rakitić",
       "short_name": " RAKITIĆ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 34 (Mar 10, 1988)",
       "height": 184,
       "weight": 78,
@@ -4934,7 +4934,7 @@
         "Finishing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/11013.png",
-      "video": "i4SahSnGuMA",
+      "video": "SCZGchldNLo",
       "foot": " Right"
     }
   },
@@ -4944,7 +4944,7 @@
     "fields": {
       "full_name": " Sandro Tonali",
       "short_name": " TONALI",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 22 (May 8, 2000)",
       "height": 182,
       "weight": 79,
@@ -4973,7 +4973,7 @@
     "fields": {
       "full_name": " Manuel Locatelli",
       "short_name": " LOCATELLI",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 24 (Jan 8, 1998)",
       "height": 185,
       "weight": 75,
@@ -4991,7 +4991,7 @@
     "fields": {
       "full_name": " Rúben Diogo Da Silva Neves",
       "short_name": " NEVES",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 25 (Mar 13, 1997)",
       "height": 180,
       "weight": 80,
@@ -5010,7 +5010,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/74545.png",
-      "video": "0-jRCtBd39U",
+      "video": "Hjb-MPqkFeE",
       "foot": " Right"
     }
   },
@@ -5020,7 +5020,7 @@
     "fields": {
       "full_name": " Aurélien Djani Tchouaméni",
       "short_name": " TCHOUAMENI",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 22 (Jan 27, 2000)",
       "height": 185,
       "weight": 75,
@@ -5049,7 +5049,7 @@
     "fields": {
       "full_name": " Declan Rice",
       "short_name": " RICE",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 23 (Jan 14, 1999)",
       "height": 185,
       "weight": 89,
@@ -5068,7 +5068,7 @@
         "Composure"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/90916.png",
-      "video": "foElWJRtfLs",
+      "video": "aMbGp3eb7kc",
       "foot": " Right"
     }
   },
@@ -5078,7 +5078,7 @@
     "fields": {
       "full_name": " Tomáš Souček",
       "short_name": " SOUČEK",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 27 (Feb 27, 1995)",
       "height": 190,
       "weight": 84,
@@ -5107,7 +5107,7 @@
     "fields": {
       "full_name": " Denis Lemi Zakaria Lako Lado",
       "short_name": " ZAKARIA",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 25 (Nov 20, 1996)",
       "height": 191,
       "weight": 80,
@@ -5136,7 +5136,7 @@
     "fields": {
       "full_name": " Onyinye Wifred Ndidi",
       "short_name": " NDIDI",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 25 (Dec 16, 1996)",
       "height": 184,
       "weight": 70,
@@ -5155,7 +5155,7 @@
         "Marking"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/80792.png",
-      "video": "-_AnmxK9AIk",
+      "video": "cCn91DDAGyQ",
       "foot": " Right"
     }
   },
@@ -5165,7 +5165,7 @@
     "fields": {
       "full_name": " Axel Laurent Angel Lambert Witsel",
       "short_name": " WITSEL",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 33 (Jan 12, 1989)",
       "height": 186,
       "weight": 73,
@@ -5184,7 +5184,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/16087.png",
-      "video": "WJwI1Ekb7Pw",
+      "video": "yv6YMU6dxS4",
       "foot": " Right"
     }
   },
@@ -5194,7 +5194,7 @@
     "fields": {
       "full_name": " Ferland Sinna Mendy",
       "short_name": " MENDY",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 27 (Jun 8, 1995)",
       "height": 180,
       "weight": 73,
@@ -5202,7 +5202,7 @@
       "weight_diff": -2,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82337.png",
-      "video": "v8XuMsVxTxc",
+      "video": "Jat_XoT7PgI",
       "foot": " Left"
     }
   },
@@ -5212,7 +5212,7 @@
     "fields": {
       "full_name": " Robin Everardus Gosens",
       "short_name": " GOSENS",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 28 (Jul 5, 1994)",
       "height": 181,
       "weight": 70,
@@ -5220,7 +5220,7 @@
       "weight_diff": -5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/73692.png",
-      "video": "6xALxCJY9qQ",
+      "video": "RMFQp6xt82c",
       "foot": " Left"
     }
   },
@@ -5230,7 +5230,7 @@
     "fields": {
       "full_name": " Giovanni Di Lorenzo",
       "short_name": " DI LORENZO",
-      "position": "D(RC),DM,M(R)",
+      "position": "D(RC), DM(R), M(R)",
       "age": " 29 (Aug 4, 1993)",
       "height": 187,
       "weight": 83,
@@ -5238,7 +5238,7 @@
       "weight_diff": 8,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/64405.png",
-      "video": "DozlAYWFZq8",
+      "video": "VXHBRe_OhDk",
       "foot": " Right"
     }
   },
@@ -5248,7 +5248,7 @@
     "fields": {
       "full_name": " José Luis Gayá Peña",
       "short_name": " GAYA",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 27 (May 25, 1995)",
       "height": 172,
       "weight": 68,
@@ -5266,7 +5266,7 @@
     "fields": {
       "full_name": " Raphaël Adelino José Guerreiro",
       "short_name": " GUERREIRO",
-      "position": "D,DM(L),M(LC)",
+      "position": "D(L), DM(L), M(LC)",
       "age": " 28 (Dec 22, 1993)",
       "height": 170,
       "weight": 67,
@@ -5285,7 +5285,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59500.png",
-      "video": "6eAHnrmQkV8",
+      "video": "lCsSZRuAU3s",
       "foot": " Left"
     }
   },
@@ -5295,7 +5295,7 @@
     "fields": {
       "full_name": " Luke Paul Hoare Shaw",
       "short_name": " SHAW",
-      "position": "D(LC),DM,M(L)",
+      "position": "D(LC), DM(L), M(L)",
       "age": " 27 (Jul 12, 1995)",
       "height": 185,
       "weight": 75,
@@ -5314,7 +5314,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/56409.png",
-      "video": "gBA3XMLokds",
+      "video": "-0immedCXbE",
       "foot": " Left"
     }
   },
@@ -5324,7 +5324,7 @@
     "fields": {
       "full_name": " Lucas Digne",
       "short_name": " DIGNE",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 29 (Jul 20, 1993)",
       "height": 175,
       "weight": 68,
@@ -5353,7 +5353,7 @@
     "fields": {
       "full_name": " Kieran John Trippier",
       "short_name": " TRIPPIER",
-      "position": "D,DM,M(RL)",
+      "position": "D(RL), DM(RL), M(RL)",
       "age": " 31 (Sep 19, 1990)",
       "height": 177,
       "weight": 71,
@@ -5372,7 +5372,7 @@
         "Long Throws"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/45675.png",
-      "video": "pcdpbYYxIiM",
+      "video": "PZnPZ-wM9h4",
       "foot": " Right"
     }
   },
@@ -5382,7 +5382,7 @@
     "fields": {
       "full_name": " Alex Sandro Lobo Silva",
       "short_name": " SANDRO",
-      "position": "D(LC),DM,M(L)",
+      "position": "D(LC), DM(L), M(L)",
       "age": " 31 (Jan 26, 1991)",
       "height": 180,
       "weight": 78,
@@ -5390,7 +5390,7 @@
       "weight_diff": 3,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/41233.png",
-      "video": "rvQwyiDlCac",
+      "video": "og9WI2Q_YVE",
       "foot": " Left"
     }
   },
@@ -5400,7 +5400,7 @@
     "fields": {
       "full_name": " Juan Guillermo Cuadrado Bello",
       "short_name": " CUADRADO",
-      "position": "D,DM(R),M,AM(RC)",
+      "position": "D(R), DM(R), M(RC), AM(RC)",
       "age": " 34 (May 26, 1988)",
       "height": 178,
       "weight": 71,
@@ -5419,7 +5419,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/36627.png",
-      "video": "fnYHffjUtBA",
+      "video": "__aTDoFxJ3c",
       "foot": " Right"
     }
   },
@@ -5429,7 +5429,7 @@
     "fields": {
       "full_name": " Jesús Navas González",
       "short_name": " NAVAS",
-      "position": "D,DM,M,AM(R)",
+      "position": "D(R), DM(R), M(R), AM(R)",
       "age": " 36 (Nov 21, 1985)",
       "height": 170,
       "weight": 60,
@@ -5448,7 +5448,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2958.png",
-      "video": "M-z6UYG2uGI",
+      "video": "CHbkUbMj3aY",
       "foot": " Right"
     }
   },
@@ -5466,7 +5466,7 @@
       "weight_diff": 6,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/88450.png",
-      "video": "h0N67Mh7htE",
+      "video": "_8KCLiDBZ14",
       "foot": " Left"
     }
   },
@@ -5495,7 +5495,7 @@
         "Long Passing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/82312.png",
-      "video": "BIKUsp63CqA",
+      "video": "Xm-1Z25jF0w",
       "foot": " Right"
     }
   },
@@ -5524,7 +5524,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/76506.png",
-      "video": "aQ_OZLtPU9Q",
+      "video": "NxlSwZO3Tc0",
       "foot": " Left"
     }
   },
@@ -5542,7 +5542,7 @@
       "weight_diff": -1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/58947.png",
-      "video": "KxvAiFePI-c",
+      "video": "IQAfXhmHLRw",
       "foot": " Right"
     }
   },
@@ -5581,7 +5581,7 @@
     "fields": {
       "full_name": " Daley Blind",
       "short_name": " BLIND",
-      "position": "D(LC),DM(C)",
+      "position": "D(LC), DM(C)",
       "age": " 32 (Mar 9, 1990)",
       "height": 180,
       "weight": 72,
@@ -5600,7 +5600,7 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/36680.png",
-      "video": "NcRqM3_faOk",
+      "video": "RiLo6bc_GGM",
       "foot": " Left"
     }
   },
@@ -5610,7 +5610,7 @@
     "fields": {
       "full_name": " Benjamin Pavard",
       "short_name": " PAVARD",
-      "position": "D(RC),DM(R)",
+      "position": "D(RC), DM(R)",
       "age": " 26 (Mar 28, 1996)",
       "height": 186,
       "weight": 74,
@@ -5639,7 +5639,7 @@
     "fields": {
       "full_name": " Lukas Manuel Klostermann",
       "short_name": " KLOSTERMANN",
-      "position": "D(RLC),DM(RL)",
+      "position": "D(RLC), DM(RL)",
       "age": " 26 (Jun 3, 1996)",
       "height": 185,
       "weight": 80,
@@ -5658,7 +5658,7 @@
         "Marking"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/73016.png",
-      "video": "SFaz7T8BtFU",
+      "video": "w824QKXHxPo",
       "foot": " Right"
     }
   },
@@ -5705,7 +5705,7 @@
       "weight_diff": 4,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/73978.png",
-      "video": "NVbjgvDfZ7c",
+      "video": "OOz_8TQfMmw",
       "foot": " Right"
     }
   },
@@ -5763,7 +5763,7 @@
         "Aerial Ability"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/80336.png",
-      "video": "kYeCLfzOqmo",
+      "video": "zgMsXQyooMY",
       "foot": " Right"
     }
   },
@@ -5810,7 +5810,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/61102.png",
-      "video": "lyjzIHAeDLw",
+      "video": "x-uWpEWMhso",
       "foot": " Right"
     }
   },
@@ -5839,7 +5839,7 @@
         "Determination"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/41819.png",
-      "video": "hdNLktHXNvQ",
+      "video": "gGok_Pq6R_Y",
       "foot": " Right"
     }
   },
@@ -5886,7 +5886,7 @@
         "Leadership"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/18649.png",
-      "video": "B4Mdt6Jri4U",
+      "video": "pR0JnqtyuHU",
       "foot": " Left"
     }
   },
@@ -5904,7 +5904,7 @@
       "weight_diff": 1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/8960.png",
-      "video": "ZxX3MyApITQ",
+      "video": "HxH0K9dmSV4",
       "foot": " Right"
     }
   },
@@ -5914,7 +5914,7 @@
     "fields": {
       "full_name": " Arnaut Danjuma Adam Groeneveld",
       "short_name": " DANJUMA",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Jan 31, 1997)",
       "height": 178,
       "weight": 74,
@@ -5932,7 +5932,7 @@
     "fields": {
       "full_name": " Iñaki Williams Arthuer",
       "short_name": " WILLIAMS",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 28 (Jun 15, 1994)",
       "height": 186,
       "weight": 77,
@@ -5961,7 +5961,7 @@
     "fields": {
       "full_name": " Alassane Alexandre Pléa",
       "short_name": " PLÉA",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 29 (Mar 10, 1993)",
       "height": 181,
       "weight": 73,
@@ -5980,7 +5980,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/53240.png",
-      "video": "DpoBHwbseqM",
+      "video": "Wp7USTKIwLk",
       "foot": " Right"
     }
   },
@@ -5990,7 +5990,7 @@
     "fields": {
       "full_name": " Kevin Volland",
       "short_name": " VOLLAND",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 30 (Jul 30, 1992)",
       "height": 179,
       "weight": 82,
@@ -6009,7 +6009,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/46207.png",
-      "video": "hrudEz3nptc",
+      "video": "TD5UEXUBimU",
       "foot": " Left"
     }
   },
@@ -6019,7 +6019,7 @@
     "fields": {
       "full_name": " Jonathan Christian David",
       "short_name": " DAVID",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 22 (Jan 14, 2000)",
       "height": 180,
       "weight": 73,
@@ -6039,7 +6039,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/98250.png",
       "video": "RRT9NfXdAAU",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -6048,7 +6048,7 @@
     "fields": {
       "full_name": " Carlos Joaquín Correa",
       "short_name": " CORREA",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 28 (Aug 13, 1994)",
       "height": 188,
       "weight": 81,
@@ -6077,7 +6077,7 @@
     "fields": {
       "full_name": " Ante Rebić",
       "short_name": " REBIĆ",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 28 (Sep 21, 1993)",
       "height": 182,
       "weight": 80,
@@ -6106,7 +6106,7 @@
     "fields": {
       "full_name": " Iago Aspas Juncal",
       "short_name": " ASPAS",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 35 (Aug 1, 1987)",
       "height": 176,
       "weight": 67,
@@ -6125,7 +6125,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/42073.png",
-      "video": "2NnMoHFWokg",
+      "video": "i-8EIwzM7M4",
       "foot": " Left"
     }
   },
@@ -6135,7 +6135,7 @@
     "fields": {
       "full_name": " Andrej Kramarić",
       "short_name": " KRAMARIĆ",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 31 (Jun 19, 1991)",
       "height": 180,
       "weight": 70,
@@ -6155,7 +6155,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/40405.png",
       "video": "S1Rh4B6ZmpQ",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -6164,7 +6164,7 @@
     "fields": {
       "full_name": " Dries Mertens",
       "short_name": " MERTENS",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 35 (May 6, 1987)",
       "height": 169,
       "weight": 61,
@@ -6193,7 +6193,7 @@
     "fields": {
       "full_name": " Alexis Alejandro Sánchez Sánchez",
       "short_name": " SÁNCHEZ",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 33 (Dec 19, 1988)",
       "height": 169,
       "weight": 62,
@@ -6212,7 +6212,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/12927.png",
-      "video": "vVrxtXFdtKI",
+      "video": "WYWzRiAx03g",
       "foot": " Right"
     }
   },
@@ -6222,7 +6222,7 @@
     "fields": {
       "full_name": " Marcus Lilian Thuram-Ulien",
       "short_name": " THURAM",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Aug 6, 1997)",
       "height": 189,
       "weight": 79,
@@ -6230,7 +6230,7 @@
       "weight_diff": 4,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/81689.png",
-      "video": "e_Neb-TI_kg",
+      "video": "ZT-yGEhwgKw",
       "foot": " Right"
     }
   },
@@ -6240,7 +6240,7 @@
     "fields": {
       "full_name": " Gonçalo Manuel Ganchinho Guedes",
       "short_name": " GUEDES",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 25 (Nov 29, 1996)",
       "height": 179,
       "weight": 73,
@@ -6259,7 +6259,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/73406.png",
-      "video": "6gJ8s9i25jI",
+      "video": "B5AsaasAKCA",
       "foot": " Right"
     }
   },
@@ -6269,7 +6269,7 @@
     "fields": {
       "full_name": " Hirving Rodrigo Lozano Bahena",
       "short_name": " LOZANO",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 27 (Jul 30, 1995)",
       "height": 177,
       "weight": 70,
@@ -6288,7 +6288,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/73018.png",
-      "video": "vZI549jCKPA",
+      "video": "i_cO4MD567k",
       "foot": " Right"
     }
   },
@@ -6324,7 +6324,7 @@
       "weight_diff": -1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/73044.png",
-      "video": "5wU2jTwAVLQ",
+      "video": "uPvDw4HvbM8",
       "foot": " Right"
     }
   },
@@ -6334,7 +6334,7 @@
     "fields": {
       "full_name": " Gabriel Barbosa Almeida",
       "short_name": " BARBOSA",
-      "position": "AM(R),F(RC)",
+      "position": "AM(R), F(RC)",
       "age": " 26 (Aug 30, 1996)",
       "height": 176,
       "weight": 68,
@@ -6353,7 +6353,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68166.png",
-      "video": "xQaRxgE49to",
+      "video": "hXmE1ZYn4eU",
       "foot": " Left"
     }
   },
@@ -6363,7 +6363,7 @@
     "fields": {
       "full_name": " Anthony Joran Martial",
       "short_name": " MARTIAL",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 26 (Dec 5, 1995)",
       "height": 181,
       "weight": 76,
@@ -6382,7 +6382,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64132.png",
-      "video": "SPuQCAvA1ic",
+      "video": "EP6HWYklFeI",
       "foot": " Right"
     }
   },
@@ -6411,7 +6411,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/58353.png",
-      "video": "wqTN7qfcEbk",
+      "video": "KVe0FsIdBk0",
       "foot": " Right"
     }
   },
@@ -6421,7 +6421,7 @@
     "fields": {
       "full_name": " Luis Fernando Muriel Fruto",
       "short_name": " MURIEL",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 31 (Apr 18, 1991)",
       "height": 179,
       "weight": 79,
@@ -6439,7 +6439,7 @@
     "fields": {
       "full_name": " Darwin Gabriel Núñez Ribeiro",
       "short_name": " DARWIN",
-      "position": "AM(L),F(LC)",
+      "position": "AM(L), F(LC)",
       "age": " 23 (Jun 24, 1999)",
       "height": 187,
       "weight": 80,
@@ -6458,7 +6458,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/95052.png",
-      "video": "0UyEIBVFdOA",
+      "video": "qFpR8vNX118",
       "foot": " Right"
     }
   },
@@ -6468,7 +6468,7 @@
     "fields": {
       "full_name": " Youssef En-Nesyri",
       "short_name": " EN NESYRI",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Jun 1, 1997)",
       "height": 188,
       "weight": 75,
@@ -6584,7 +6584,7 @@
     "fields": {
       "full_name": " Arkadiusz Milik",
       "short_name": " MILIK",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 28 (Feb 28, 1994)",
       "height": 189,
       "weight": 78,
@@ -6613,7 +6613,7 @@
     "fields": {
       "full_name": " Yussuf Yurary Poulsen",
       "short_name": " POULSEN",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 28 (Jun 15, 1994)",
       "height": 192,
       "weight": 78,
@@ -6679,7 +6679,7 @@
       "weight_diff": 1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/53337.png",
-      "video": "UqeHEkIMluM",
+      "video": "NxwsAyW4ie0",
       "foot": " Right"
     }
   },
@@ -6689,7 +6689,7 @@
     "fields": {
       "full_name": " Alexandre Lacazette",
       "short_name": " LACAZETTE",
-      "position": "AM,F(C)",
+      "position": "AM(C), F(C)",
       "age": " 31 (May 28, 1991)",
       "height": 176,
       "weight": 73,
@@ -6708,7 +6708,7 @@
         "Penalties"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/44682.png",
-      "video": "VF8I2nmxF_0",
+      "video": "D0a5uYZVvfc",
       "foot": " Right"
     }
   },
@@ -6718,7 +6718,7 @@
     "fields": {
       "full_name": " Michail Gregory Antonio",
       "short_name": " ANTONIO",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 32 (Mar 28, 1990)",
       "height": 182,
       "weight": 82,
@@ -6747,7 +6747,7 @@
     "fields": {
       "full_name": " Florian Richard Wirtz",
       "short_name": " WIRTZ",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 19 (May 3, 2003)",
       "height": 175,
       "weight": 70,
@@ -6776,7 +6776,7 @@
     "fields": {
       "full_name": " Daniel Olmo Carvajal",
       "short_name": " OLMO",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 24 (May 7, 1998)",
       "height": 179,
       "weight": 72,
@@ -6795,7 +6795,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/79874.png",
-      "video": "UK38lvFRLrc",
+      "video": "MAUCV1_kwok",
       "foot": " Right"
     }
   },
@@ -6805,7 +6805,7 @@
     "fields": {
       "full_name": " Giorgian Daniel De Arrascaeta Benedetti",
       "short_name": " DE ARRASCAETA",
-      "position": "AM(RLC),F(RL)",
+      "position": "AM(RLC), F(RL)",
       "age": " 28 (Jun 1, 1994)",
       "height": 172,
       "weight": 67,
@@ -6824,7 +6824,7 @@
         "Passing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64661.png",
-      "video": "quB1qcLmrl0",
+      "video": "Ou3_eT6BCAQ",
       "foot": " Right"
     }
   },
@@ -6834,7 +6834,7 @@
     "fields": {
       "full_name": " Ruslan Malinovskiy",
       "short_name": " MALINOVSKIY",
-      "position": "M(C),AM,F(RC)",
+      "position": "M(C), AM(RC), F(RC)",
       "age": " 29 (May 4, 1993)",
       "height": 181,
       "weight": 79,
@@ -6842,7 +6842,7 @@
       "weight_diff": 4,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/64576.png",
-      "video": "a2QyJl_4nfk",
+      "video": "AnR1Ih_K3Ds",
       "foot": " Left"
     }
   },
@@ -6852,7 +6852,7 @@
     "fields": {
       "full_name": " Henrikh Mkhitaryan",
       "short_name": " MKHITARYAN",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 33 (Jan 21, 1989)",
       "height": 177,
       "weight": 75,
@@ -6871,8 +6871,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/39795.png",
-      "video": "lSQGLqDSVzI",
-      "foot": "RightLeft"
+      "video": "hSlKPBYGBM8",
+      "foot": "Right and Left"
     }
   },
   {
@@ -6881,7 +6881,7 @@
     "fields": {
       "full_name": " James David Rodríguez Rubio",
       "short_name": " RODRÍGUEZ",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 31 (Jul 12, 1991)",
       "height": 180,
       "weight": 75,
@@ -6900,7 +6900,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/38125.png",
-      "video": "XtvdTtbRUhw",
+      "video": "oCTYcfb8ZjQ",
       "foot": " Left"
     }
   },
@@ -6910,7 +6910,7 @@
     "fields": {
       "full_name": " Dimitri Payet",
       "short_name": " PAYET",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 35 (Mar 29, 1987)",
       "height": 175,
       "weight": 77,
@@ -6930,7 +6930,7 @@
       ],
       "image": "https://cdn.soccerwiki.org/images/player/15164.png",
       "video": "Risx9VStPK4",
-      "foot": "RightLeft"
+      "foot": "Right and Left"
     }
   },
   {
@@ -6939,7 +6939,7 @@
     "fields": {
       "full_name": " David Josué Jiménez Silva",
       "short_name": " SILVA",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 36 (Jan 8, 1986)",
       "height": 170,
       "weight": 67,
@@ -6958,7 +6958,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/2985.png",
-      "video": "U_-b4XMSQog",
+      "video": "n-k5EpBWuR8",
       "foot": " Left"
     }
   },
@@ -6968,7 +6968,7 @@
     "fields": {
       "full_name": " Dejan Kulusevski",
       "short_name": " KULUSEVSKI",
-      "position": "M(R),AM,F(RC)",
+      "position": "M(R), AM(RC), F(RC)",
       "age": " 22 (Apr 25, 2000)",
       "height": 186,
       "weight": 79,
@@ -6987,7 +6987,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/100914.png",
-      "video": "aikkRCE6NbI",
+      "video": "fNB-hvsjXCU",
       "foot": " Left"
     }
   },
@@ -6997,7 +6997,7 @@
     "fields": {
       "full_name": " Antony Matheus Dos Santos",
       "short_name": " ANTONY",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 22 (Feb 24, 2000)",
       "height": 175,
       "weight": 70,
@@ -7016,7 +7016,7 @@
         "Crossing"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/99244.png",
-      "video": "HCihUxNOep4",
+      "video": "U6PxxzHYAf8",
       "foot": " Left"
     }
   },
@@ -7026,7 +7026,7 @@
     "fields": {
       "full_name": " Rodrygo Silva De Goes",
       "short_name": " RODRYGO",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 21 (Jan 9, 2001)",
       "height": 175,
       "weight": 70,
@@ -7045,7 +7045,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/93823.png",
-      "video": "Ocq-AU4zQo4",
+      "video": "wIZbSQwz88c",
       "foot": " Right"
     }
   },
@@ -7055,7 +7055,7 @@
     "fields": {
       "full_name": " Ferrán Torres García",
       "short_name": " FERRAN",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 22 (Feb 29, 2000)",
       "height": 180,
       "weight": 73,
@@ -7074,7 +7074,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/93445.png",
-      "video": "vsrcLeT-2Rg",
+      "video": "uZE4fq3B1R4",
       "foot": " Right"
     }
   },
@@ -7084,7 +7084,7 @@
     "fields": {
       "full_name": " David Neres Campos",
       "short_name": " NERES",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 25 (Mar 3, 1997)",
       "height": 177,
       "weight": 74,
@@ -7103,7 +7103,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/89363.png",
-      "video": "NSz27TlE7iI",
+      "video": "pIDaaeE7Hno",
       "foot": " Left"
     }
   },
@@ -7113,7 +7113,7 @@
     "fields": {
       "full_name": " Martin Terrier",
       "short_name": " TERRIER",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 25 (Mar 4, 1997)",
       "height": 184,
       "weight": 76,
@@ -7142,7 +7142,7 @@
     "fields": {
       "full_name": " Jonathan Bamba",
       "short_name": " BAMBA",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 26 (Mar 26, 1996)",
       "height": 175,
       "weight": 70,
@@ -7160,7 +7160,7 @@
     "fields": {
       "full_name": " Jarrod Bowen",
       "short_name": " BOWEN",
-      "position": "AM,F(RC)",
+      "position": "AM(RC), F(RC)",
       "age": " 25 (Dec 20, 1996)",
       "height": 174,
       "weight": 70,
@@ -7189,7 +7189,7 @@
     "fields": {
       "full_name": " Adama Traoré Diarra",
       "short_name": " TRAORÉ",
-      "position": "M,AM(RL),F(RLC)",
+      "position": "M(RL), AM(RL), F(RLC)",
       "age": " 26 (Jan 25, 1996)",
       "height": 178,
       "weight": 75,
@@ -7208,7 +7208,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68991.png",
-      "video": "jUeYwv8owDY",
+      "video": "nhPu1W39xLk",
       "foot": " Right"
     }
   },
@@ -7218,7 +7218,7 @@
     "fields": {
       "full_name": " Federico Bernardeschi",
       "short_name": " BERNARDESCHI",
-      "position": "M(RL),AM,F(RLC)",
+      "position": "M(RL), AM(RLC), F(RLC)",
       "age": " 28 (Feb 16, 1994)",
       "height": 183,
       "weight": 75,
@@ -7247,7 +7247,7 @@
     "fields": {
       "full_name": " Thomas Lemar",
       "short_name": " LEMAR",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 26 (Nov 12, 1995)",
       "height": 170,
       "weight": 68,
@@ -7265,7 +7265,7 @@
     "fields": {
       "full_name": " Matteo Politano",
       "short_name": " POLITANO",
-      "position": "AM,F(RL)",
+      "position": "AM(RL), F(RL)",
       "age": " 29 (Aug 3, 1993)",
       "height": 171,
       "weight": 68,
@@ -7284,7 +7284,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/60105.png",
-      "video": "H8dzSYtnJD0",
+      "video": "PPAYLys556A",
       "foot": " Left"
     }
   },
@@ -7294,7 +7294,7 @@
     "fields": {
       "full_name": " Jesús Manuel Corona Ruiz",
       "short_name": " TECATITO",
-      "position": "D,DM,M(R),AM(RL)",
+      "position": "D(R), DM(R), M(R), AM(RL)",
       "age": " 29 (Jan 6, 1993)",
       "height": 173,
       "weight": 68,
@@ -7313,7 +7313,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/55000.png",
-      "video": "wNYl-R_LoIs",
+      "video": "siVlASFIY2o",
       "foot": " Right"
     }
   },
@@ -7323,7 +7323,7 @@
     "fields": {
       "full_name": " Thorgan Ganael Francis Hazard",
       "short_name": " HAZARD",
-      "position": "M(RL),AM,F(RLC)",
+      "position": "M(RL), AM(RLC), F(RLC)",
       "age": " 29 (Mar 29, 1993)",
       "height": 174,
       "weight": 69,
@@ -7342,8 +7342,8 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/51305.png",
-      "video": "XJYNSuRyjIs",
-      "foot": "RightLeft"
+      "video": "KTUkZkv0WQ0",
+      "foot": "Right and Left"
     }
   },
   {
@@ -7352,7 +7352,7 @@
     "fields": {
       "full_name": " Emil Peter Forsberg",
       "short_name": " FORSBERG",
-      "position": "AM,F(LC)",
+      "position": "AM(LC), F(LC)",
       "age": " 30 (Oct 23, 1991)",
       "height": 179,
       "weight": 78,
@@ -7371,7 +7371,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/50417.png",
-      "video": "07UK6aoHWvg",
+      "video": "GSrsctDGS7M",
       "foot": " Right"
     }
   },
@@ -7381,7 +7381,7 @@
     "fields": {
       "full_name": " Dazet Wilfried Armel Zaha",
       "short_name": " ZAHA",
-      "position": "AM(RL),F(RLC)",
+      "position": "AM(RL), F(RLC)",
       "age": " 29 (Nov 10, 1992)",
       "height": 180,
       "weight": 65,
@@ -7400,7 +7400,7 @@
         "Free Kicks"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/45273.png",
-      "video": "m6blTix2aHc",
+      "video": "XWpuNzwWeN4",
       "foot": " Right"
     }
   },
@@ -7410,7 +7410,7 @@
     "fields": {
       "full_name": " Pablo Sarabia García",
       "short_name": " SARABIA",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 30 (May 11, 1992)",
       "height": 181,
       "weight": 70,
@@ -7429,7 +7429,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/43823.png",
-      "video": "f2R9GbCUBqQ",
+      "video": "8anb1oCA7sY",
       "foot": " Left"
     }
   },
@@ -7439,7 +7439,7 @@
     "fields": {
       "full_name": " Gareth Frank Bale",
       "short_name": " BALE",
-      "position": "AM,F(RLC)",
+      "position": "AM(RLC), F(RLC)",
       "age": " 33 (Jul 16, 1989)",
       "height": 183,
       "weight": 74,
@@ -7468,7 +7468,7 @@
     "fields": {
       "full_name": " Otávio Edmilson Da Silva Monteiro",
       "short_name": " OTÁVIO",
-      "position": "M,AM(RLC)",
+      "position": "M(RLC), AM(RLC)",
       "age": " 27 (Feb 9, 1995)",
       "height": 171,
       "weight": 65,
@@ -7487,7 +7487,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/59189.png",
-      "video": "g-UCbP7oyeo",
+      "video": "JLo9pmmGKsQ",
       "foot": " Right"
     }
   },
@@ -7497,7 +7497,7 @@
     "fields": {
       "full_name": " Filip Kostić",
       "short_name": " KOSTIĆ",
-      "position": "M,AM(RL)",
+      "position": "M(RL), AM(RL)",
       "age": " 29 (Nov 1, 1992)",
       "height": 184,
       "weight": 75,
@@ -7516,7 +7516,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/52390.png",
-      "video": "t87AYED45sg",
+      "video": "Fe3vSouVA2I",
       "foot": " Left"
     }
   },
@@ -7526,7 +7526,7 @@
     "fields": {
       "full_name": " Florian Neuhaus",
       "short_name": " NEUHAUS",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 25 (Mar 16, 1997)",
       "height": 182,
       "weight": 68,
@@ -7545,7 +7545,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/88654.png",
-      "video": "pEl49ma_quc",
+      "video": "OaZXmYVBRBQ",
       "foot": " Right"
     }
   },
@@ -7555,7 +7555,7 @@
     "fields": {
       "full_name": " Houssem Eddine Aouar",
       "short_name": " AOUAR",
-      "position": "M,AM(LC)",
+      "position": "M(LC), AM(LC)",
       "age": " 24 (Jun 30, 1998)",
       "height": 175,
       "weight": 70,
@@ -7563,7 +7563,7 @@
       "weight_diff": -5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/87149.png",
-      "video": "Mx8119_aZWU",
+      "video": "wqLnW3b8Pyc",
       "foot": " Right"
     }
   },
@@ -7573,7 +7573,7 @@
     "fields": {
       "full_name": " Oleksandr Volodymyrovych Zinchenko",
       "short_name": " ZINCHENKO",
-      "position": "D,DM(L),M,AM(LC)",
+      "position": "D(L), DM(L), M(LC), AM(LC)",
       "age": " 25 (Dec 15, 1996)",
       "height": 175,
       "weight": 61,
@@ -7591,7 +7591,7 @@
     "fields": {
       "full_name": " Arthur Henrique Ramos De Oliveira Melo",
       "short_name": " ARTHUR",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 26 (Aug 12, 1996)",
       "height": 172,
       "weight": 67,
@@ -7610,7 +7610,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/82329.png",
-      "video": "Az6im3AOww0",
+      "video": "f06iK6NRQT4",
       "foot": " Right"
     }
   },
@@ -7620,7 +7620,7 @@
     "fields": {
       "full_name": " Giovani Lo Celso",
       "short_name": " LO CELSO",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 26 (Apr 9, 1996)",
       "height": 177,
       "weight": 69,
@@ -7649,7 +7649,7 @@
     "fields": {
       "full_name": " Ismaël Bennacer",
       "short_name": " BENNACER",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 24 (Dec 1, 1997)",
       "height": 175,
       "weight": 70,
@@ -7657,7 +7657,7 @@
       "weight_diff": -5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/81611.png",
-      "video": "eHYvzoeIQPE",
+      "video": "gf03LA6It0Y",
       "foot": " Left"
     }
   },
@@ -7667,7 +7667,7 @@
     "fields": {
       "full_name": " Donny Van De Beek",
       "short_name": " VAN DE BEEK",
-      "position": "M,AM(C)",
+      "position": "M(C), AM(C)",
       "age": " 25 (Apr 18, 1997)",
       "height": 183,
       "weight": 76,
@@ -7685,7 +7685,7 @@
     "fields": {
       "full_name": " Naby Laye Keïta",
       "short_name": " KEÏTA",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 27 (Feb 10, 1995)",
       "height": 172,
       "weight": 68,
@@ -7704,7 +7704,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/71066.png",
-      "video": "22SpX01LUzs",
+      "video": "FxSavdsesII",
       "foot": " Right"
     }
   },
@@ -7714,7 +7714,7 @@
     "fields": {
       "full_name": " James Michael Edward Ward-Prowse",
       "short_name": " WARD-PROWSE",
-      "position": "D(R),DM,M,AM(RC)",
+      "position": "D(R), DM(RC), M(RC), AM(RC)",
       "age": " 27 (Nov 1, 1994)",
       "height": 173,
       "weight": 66,
@@ -7733,7 +7733,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/53464.png",
-      "video": "i7w2Kad9z9E",
+      "video": "ZB48YFu5yCE",
       "foot": " Right"
     }
   },
@@ -7743,7 +7743,7 @@
     "fields": {
       "full_name": " Konrad Laimer",
       "short_name": " LAIMER",
-      "position": "D(R),DM,M(RC)",
+      "position": "D(R), DM(RC), M(RC)",
       "age": " 25 (May 27, 1997)",
       "height": 179,
       "weight": 68,
@@ -7772,7 +7772,7 @@
     "fields": {
       "full_name": " Eduardo Celmi Camavinga",
       "short_name": " CAMAVINGA",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 19 (Nov 10, 2002)",
       "height": 182,
       "weight": 75,
@@ -7780,7 +7780,7 @@
       "weight_diff": 0,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/101125.png",
-      "video": "DCChmeo7P48",
+      "video": "ttIRJ3YJ9Q0",
       "foot": " Left"
     }
   },
@@ -7790,7 +7790,7 @@
     "fields": {
       "full_name": " Bruno Guimarães Rodriguez Moura",
       "short_name": " GUIMARÃES",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 24 (Nov 16, 1997)",
       "height": 182,
       "weight": 73,
@@ -7809,7 +7809,7 @@
         "Composure"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/94642.png",
-      "video": "Ptzb5Hvkfac",
+      "video": "zqToWkvox_Q",
       "foot": " Right"
     }
   },
@@ -7819,7 +7819,7 @@
     "fields": {
       "full_name": " Yves Bissouma",
       "short_name": " BISSOUMA",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 26 (Aug 30, 1996)",
       "height": 181,
       "weight": 78,
@@ -7827,7 +7827,7 @@
       "weight_diff": 3,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/88886.png",
-      "video": "eJu_z86QSJQ",
+      "video": "xZZL0rMb_OY",
       "foot": " Right"
     }
   },
@@ -7837,7 +7837,7 @@
     "fields": {
       "full_name": " Tanguy Ndombèlé Alvaro",
       "short_name": " NDOMBÉLÉ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 25 (Dec 28, 1996)",
       "height": 181,
       "weight": 75,
@@ -7855,7 +7855,7 @@
     "fields": {
       "full_name": " Renato Júnior Luz Sanches",
       "short_name": " RENATO SANCHES",
-      "position": "M(C),AM(RLC)",
+      "position": "M(C), AM(RLC)",
       "age": " 25 (Aug 18, 1997)",
       "height": 176,
       "weight": 70,
@@ -7884,7 +7884,7 @@
     "fields": {
       "full_name": " Corentin Tolisso",
       "short_name": " TOLISSO",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 28 (Aug 3, 1994)",
       "height": 181,
       "weight": 73,
@@ -7903,7 +7903,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68037.png",
-      "video": "KP2m9-nQSfA",
+      "video": "Yata9GR6SWs",
       "foot": " Right"
     }
   },
@@ -7913,7 +7913,7 @@
     "fields": {
       "full_name": " Mario Pašalić",
       "short_name": " PAŠALIĆ",
-      "position": "M(C),AM,F(LC)",
+      "position": "M(C), AM(LC), F(LC)",
       "age": " 27 (Feb 9, 1995)",
       "height": 188,
       "weight": 80,
@@ -7921,8 +7921,8 @@
       "weight_diff": 5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/67798.png",
-      "video": "gRbWSQNN9A8",
-      "foot": "RightLeft"
+      "video": "zzvHPTq7gaU",
+      "foot": "Right and Left"
     }
   },
   {
@@ -7931,7 +7931,7 @@
     "fields": {
       "full_name": " Abdoulaye Doucouré",
       "short_name": " DOUCOURÉ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 29 (Jan 1, 1993)",
       "height": 182,
       "weight": 67,
@@ -7950,7 +7950,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64116.png",
-      "video": "M2RtOr0NFsQ",
+      "video": "M_R_2j89h3M",
       "foot": " Right"
     }
   },
@@ -7960,7 +7960,7 @@
     "fields": {
       "full_name": " Kerem Demirbay",
       "short_name": " DEMIRBAY",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 29 (Jul 3, 1993)",
       "height": 185,
       "weight": 80,
@@ -7968,7 +7968,7 @@
       "weight_diff": 5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/59582.png",
-      "video": "ac85ljDiz9U",
+      "video": "s-IJLvXNFNQ",
       "foot": " Left"
     }
   },
@@ -7978,7 +7978,7 @@
     "fields": {
       "full_name": " Frederico Rodrigues De Paula Santos",
       "short_name": " FRED",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 29 (Mar 5, 1993)",
       "height": 169,
       "weight": 62,
@@ -7997,7 +7997,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/58165.png",
-      "video": "yhLwSDIP7Bk",
+      "video": "iT0KDvvhxIU",
       "foot": " Left"
     }
   },
@@ -8007,7 +8007,7 @@
     "fields": {
       "full_name": " Jonas Hofmann",
       "short_name": " HOFMANN",
-      "position": "D,DM(R),M,AM(RLC)",
+      "position": "D(R), DM(R), M(RLC), AM(RLC)",
       "age": " 30 (Jul 14, 1992)",
       "height": 174,
       "weight": 70,
@@ -8036,7 +8036,7 @@
     "fields": {
       "full_name": " Jordan Marcel Gilbert Veretout",
       "short_name": " VERETOUT",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 29 (Mar 1, 1993)",
       "height": 176,
       "weight": 66,
@@ -8065,7 +8065,7 @@
     "fields": {
       "full_name": " Remo Freuler",
       "short_name": " FREULER",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 30 (Apr 15, 1992)",
       "height": 181,
       "weight": 77,
@@ -8094,7 +8094,7 @@
     "fields": {
       "full_name": " Kevin Kampl",
       "short_name": " KAMPL",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 31 (Oct 9, 1990)",
       "height": 178,
       "weight": 65,
@@ -8123,7 +8123,7 @@
     "fields": {
       "full_name": " Charles Mariano Aránguiz Sandoval",
       "short_name": " ARÁNGUIZ",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 33 (Apr 17, 1989)",
       "height": 171,
       "weight": 82,
@@ -8142,7 +8142,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/19819.png",
-      "video": "ls0UrvmNWqI",
+      "video": "gHu-BWzzmgk",
       "foot": " Right"
     }
   },
@@ -8152,7 +8152,7 @@
     "fields": {
       "full_name": " Kalvin Mark Phillips",
       "short_name": " PHILLIPS",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 26 (Dec 2, 1995)",
       "height": 178,
       "weight": 72,
@@ -8171,7 +8171,7 @@
         "Aggression"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/80933.png",
-      "video": "lj8nhiu19ik",
+      "video": "NLhnfCxkJPA",
       "foot": " Right"
     }
   },
@@ -8181,7 +8181,7 @@
     "fields": {
       "full_name": " Julian Weigl",
       "short_name": " WEIGL",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 27 (Sep 8, 1995)",
       "height": 186,
       "weight": 71,
@@ -8210,7 +8210,7 @@
     "fields": {
       "full_name": " Leandro Daniel Paredes",
       "short_name": " PAREDES",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 28 (Jun 29, 1994)",
       "height": 180,
       "weight": 75,
@@ -8239,7 +8239,7 @@
     "fields": {
       "full_name": " Granit Xhaka",
       "short_name": " XHAKA",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 29 (Sep 27, 1992)",
       "height": 185,
       "weight": 82,
@@ -8268,7 +8268,7 @@
     "fields": {
       "full_name": " Miralem Pjanić",
       "short_name": " PJANIĆ",
-      "position": "DM,M,AM(C)",
+      "position": "DM(C), M(C), AM(C)",
       "age": " 32 (Apr 2, 1990)",
       "height": 180,
       "weight": 74,
@@ -8287,8 +8287,8 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/29182.png",
-      "video": "9GOtbpj2SU0",
-      "foot": "RightLeft"
+      "video": "dSXrs71LEEU",
+      "foot": "Right and Left"
     }
   },
   {
@@ -8297,7 +8297,7 @@
     "fields": {
       "full_name": " Scott Francis Mctominay",
       "short_name": " MCTOMINAY",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 25 (Dec 8, 1996)",
       "height": 193,
       "weight": 75,
@@ -8305,7 +8305,7 @@
       "weight_diff": 0,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/90862.png",
-      "video": "wVCrXERjiME",
+      "video": "aoQ-6BRXKqo",
       "foot": " Right"
     }
   },
@@ -8315,7 +8315,7 @@
     "fields": {
       "full_name": " André-Franck Zambo Anguissa",
       "short_name": " ZAMBO ANGUISSA",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 26 (Nov 16, 1995)",
       "height": 184,
       "weight": 75,
@@ -8323,7 +8323,7 @@
       "weight_diff": 0,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82677.png",
-      "video": "BCn756izTh0",
+      "video": "M688inoEJkI",
       "foot": " Right"
     }
   },
@@ -8333,7 +8333,7 @@
     "fields": {
       "full_name": " Guido Rodríguez",
       "short_name": " RODRÍGUEZ",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 28 (Apr 12, 1994)",
       "height": 185,
       "weight": 80,
@@ -8352,7 +8352,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/77206.png",
-      "video": "cQpDwQNEcrg",
+      "video": "Q10yy4DTeWk",
       "foot": " Right"
     }
   },
@@ -8362,7 +8362,7 @@
     "fields": {
       "full_name": " Pierre-Emile Kordt Højbjerg",
       "short_name": " HÖJBJERG",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 27 (Aug 5, 1995)",
       "height": 185,
       "weight": 80,
@@ -8381,7 +8381,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/60112.png",
-      "video": "uy3vAvYYKbU",
+      "video": "4-566O2snTY",
       "foot": " Right"
     }
   },
@@ -8391,7 +8391,7 @@
     "fields": {
       "full_name": " Marten Elco De Roon",
       "short_name": " DE ROON",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 31 (Mar 29, 1991)",
       "height": 185,
       "weight": 76,
@@ -8410,7 +8410,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/55478.png",
-      "video": "ixZc1w9H18M",
+      "video": "1c1rFT6VLdg",
       "foot": " Right"
     }
   },
@@ -8420,7 +8420,7 @@
     "fields": {
       "full_name": " William Silva De Carvalho",
       "short_name": " CARVALHO",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 30 (Apr 7, 1992)",
       "height": 187,
       "weight": 84,
@@ -8428,7 +8428,7 @@
       "weight_diff": 9,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/54860.png",
-      "video": "w-DaQeUKayQ",
+      "video": "y2HdDbVUFa4",
       "foot": " Right"
     }
   },
@@ -8438,7 +8438,7 @@
     "fields": {
       "full_name": " Emre Can",
       "short_name": " CAN",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 28 (Jan 12, 1994)",
       "height": 185,
       "weight": 83,
@@ -8457,8 +8457,8 @@
         "Control"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/52438.png",
-      "video": "UVvCs8wMvjQ",
-      "foot": "RightLeft"
+      "video": "CqDwDUIBHRg",
+      "foot": "Right and Left"
     }
   },
   {
@@ -8467,7 +8467,7 @@
     "fields": {
       "full_name": " Danilo Luís Hélio Pereira",
       "short_name": " PEREIRA",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 30 (Sep 9, 1991)",
       "height": 188,
       "weight": 80,
@@ -8475,7 +8475,7 @@
       "weight_diff": 5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/50089.png",
-      "video": "p_4g48taD08",
+      "video": "QQwKwXM2Wes",
       "foot": " Right"
     }
   },
@@ -8485,7 +8485,7 @@
     "fields": {
       "full_name": " Geoffrey Edwin Kondogbia",
       "short_name": " KONDOGBIA",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 29 (Feb 15, 1993)",
       "height": 188,
       "weight": 76,
@@ -8514,7 +8514,7 @@
     "fields": {
       "full_name": " Idrissa Gana Gueye",
       "short_name": " GANA",
-      "position": "DM,M(C)",
+      "position": "DM(C), M(C)",
       "age": " 32 (Sep 26, 1989)",
       "height": 174,
       "weight": 72,
@@ -8533,7 +8533,7 @@
         "Determination"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/47094.png",
-      "video": "eVGyJkcRakw",
+      "video": "ba7EdyGa9uI",
       "foot": " Right"
     }
   },
@@ -8543,7 +8543,7 @@
     "fields": {
       "full_name": " Fernando Francisco Reges",
       "short_name": " FERNANDO",
-      "position": "D,DM,M(C)",
+      "position": "D(C), DM(C), M(C)",
       "age": " 35 (Jul 25, 1987)",
       "height": 182,
       "weight": 72,
@@ -8562,7 +8562,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/25268.png",
-      "video": "h0N67Mh7htE",
+      "video": "dkaqXlnWLrs",
       "foot": " Right"
     }
   },
@@ -8572,7 +8572,7 @@
     "fields": {
       "full_name": " Renan Augusto Lodi Dos Santos",
       "short_name": " RENAN LODI",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 24 (Apr 8, 1998)",
       "height": 178,
       "weight": 74,
@@ -8601,7 +8601,7 @@
     "fields": {
       "full_name": " Marc Cucurella Saseta",
       "short_name": " CUCURELLA",
-      "position": "D(LC),DM,M(L)",
+      "position": "D(LC), DM(L), M(L)",
       "age": " 24 (Jul 22, 1998)",
       "height": 172,
       "weight": 70,
@@ -8630,7 +8630,7 @@
     "fields": {
       "full_name": " Joakim Mæhle Pedersen",
       "short_name": " MAEHLE",
-      "position": "D,DM,M(RL)",
+      "position": "D(RL), DM(RL), M(RL)",
       "age": " 25 (May 20, 1997)",
       "height": 184,
       "weight": 81,
@@ -8648,7 +8648,7 @@
     "fields": {
       "full_name": " Sergio Reguilón Rodríguez",
       "short_name": " REGUILÓN",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 25 (Dec 16, 1996)",
       "height": 180,
       "weight": 67,
@@ -8656,7 +8656,7 @@
       "weight_diff": -8,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/85353.png",
-      "video": "nHvdCjIi4JE",
+      "video": "fNYkHhE7rTA",
       "foot": " Left"
     }
   },
@@ -8666,7 +8666,7 @@
     "fields": {
       "full_name": " Kieran Tierney",
       "short_name": " TIERNEY",
-      "position": "D(LC),DM,M(L)",
+      "position": "D(LC), DM(L), M(L)",
       "age": " 25 (Jun 5, 1997)",
       "height": 178,
       "weight": 70,
@@ -8685,7 +8685,7 @@
         "Dribbling"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/83114.png",
-      "video": "Iost4MB_7cc",
+      "video": "AboJaiu2zmg",
       "foot": " Left"
     }
   },
@@ -8695,7 +8695,7 @@
     "fields": {
       "full_name": " Benjamin James Chilwell",
       "short_name": " CHILWELL",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 25 (Dec 21, 1996)",
       "height": 178,
       "weight": 76,
@@ -8703,7 +8703,7 @@
       "weight_diff": 1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82015.png",
-      "video": "mTImRXDjJhc",
+      "video": "Wq5mwgyn5ZM",
       "foot": " Left"
     }
   },
@@ -8711,9 +8711,9 @@
     "model": "app.data",
     "pk": 321,
     "fields": {
-      "full_name": " José Ángel Esmors Tasende",
+      "full_name": " José Ángel Esmoris Tasende",
       "short_name": " ANGELIÑO",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 25 (Jan 4, 1997)",
       "height": 170,
       "weight": 68,
@@ -8742,7 +8742,7 @@
     "fields": {
       "full_name": " Denzel Justus Morris Dumfries",
       "short_name": " DUMFRIES",
-      "position": "D,DM,M(R)",
+      "position": "D(R), DM(R), M(R)",
       "age": " 26 (Apr 18, 1996)",
       "height": 189,
       "weight": 80,
@@ -8760,7 +8760,7 @@
     "fields": {
       "full_name": " Timothy Castagne",
       "short_name": " CASTAGNE",
-      "position": "D,DM,M(RL)",
+      "position": "D(RL), DM(RL), M(RL)",
       "age": " 26 (Dec 5, 1995)",
       "height": 187,
       "weight": 82,
@@ -8778,7 +8778,7 @@
     "fields": {
       "full_name": " Hans Hateboer",
       "short_name": " HATEBOER",
-      "position": "D(RC),DM,M(R)",
+      "position": "D(RC), DM(R), M(R)",
       "age": " 28 (Jan 4, 1994)",
       "height": 185,
       "weight": 81,
@@ -8796,7 +8796,7 @@
     "fields": {
       "full_name": " Alex Nicolao Telles",
       "short_name": " ALEX TELLES",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 29 (Dec 15, 1992)",
       "height": 179,
       "weight": 67,
@@ -8815,7 +8815,7 @@
         "Flair"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/64199.png",
-      "video": "UEabfLrTxOM",
+      "video": "-ho3oHRDH5o",
       "foot": " Left"
     }
   },
@@ -8825,7 +8825,7 @@
     "fields": {
       "full_name": " Nélson Cabral Semedo",
       "short_name": " SEMEDO",
-      "position": "D(RL),DM,M(R)",
+      "position": "D(RL), DM(R), M(R)",
       "age": " 28 (Nov 16, 1993)",
       "height": 177,
       "weight": 65,
@@ -8833,7 +8833,7 @@
       "weight_diff": -10,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/62967.png",
-      "video": "-B4PYtfzIuk",
+      "video": "A4IhoSyuDho",
       "foot": " Right"
     }
   },
@@ -8843,7 +8843,7 @@
     "fields": {
       "full_name": " Leonardo Spinazzola",
       "short_name": " SPINAZZOLA",
-      "position": "D,DM,M(RL)",
+      "position": "D(RL), DM(RL), M(RL)",
       "age": " 29 (Mar 25, 1993)",
       "height": 186,
       "weight": 75,
@@ -8872,7 +8872,7 @@
     "fields": {
       "full_name": " Marcos Acuña",
       "short_name": " ACUÑA",
-      "position": "D,DM,M,AM(L)",
+      "position": "D(L), DM(L), M(L), AM(L)",
       "age": " 30 (Oct 28, 1991)",
       "height": 175,
       "weight": 70,
@@ -8901,7 +8901,7 @@
     "fields": {
       "full_name": " Alejandro Grimaldo García",
       "short_name": " GRIMALDO",
-      "position": "D,DM,M(L)",
+      "position": "D(L), DM(L), M(L)",
       "age": " 26 (Sep 20, 1995)",
       "height": 171,
       "weight": 64,
@@ -8930,7 +8930,7 @@
     "fields": {
       "full_name": " Thomas Meunier",
       "short_name": " MEUNIER",
-      "position": "D,DM,M(R)",
+      "position": "D(R), DM(R), M(R)",
       "age": " 30 (Sep 12, 1991)",
       "height": 191,
       "weight": 78,
@@ -8959,7 +8959,7 @@
     "fields": {
       "full_name": " Danilo Luiz Da Silva",
       "short_name": " DANILO",
-      "position": "D,DM(RLC)",
+      "position": "D(RLC), DM(RLC)",
       "age": " 31 (Jul 15, 1991)",
       "height": 184,
       "weight": 78,
@@ -8967,7 +8967,7 @@
       "weight_diff": 3,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/44614.png",
-      "video": "Un0Mab3BXPM",
+      "video": "og6p4A_QDJU",
       "foot": " Right"
     }
   },
@@ -8977,7 +8977,7 @@
     "fields": {
       "full_name": " Aaron Wan-Bissaka",
       "short_name": " WAN-BISSAKA",
-      "position": "D,DM,M(R)",
+      "position": "D(R), DM(R), M(R)",
       "age": " 24 (Nov 26, 1997)",
       "height": 183,
       "weight": 72,
@@ -8996,7 +8996,7 @@
         "Marking"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/89006.png",
-      "video": "rw8Gjl7kmdk",
+      "video": "wJcS9D9Nmn0",
       "foot": " Right"
     }
   },
@@ -9006,7 +9006,7 @@
     "fields": {
       "full_name": " Nordi Mukiele Mulere",
       "short_name": " MUKIELE",
-      "position": "D(RC),DM,M(R)",
+      "position": "D(RC), DM(R), M(R)",
       "age": " 24 (Nov 1, 1997)",
       "height": 185,
       "weight": 74,
@@ -9014,7 +9014,7 @@
       "weight_diff": -1,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82105.png",
-      "video": "RQsNnYbX6Qg",
+      "video": "b1OWnTMmClk",
       "foot": " Right"
     }
   },
@@ -9024,7 +9024,7 @@
     "fields": {
       "full_name": " Davide Calabria",
       "short_name": " CALABRIA",
-      "position": "D,DM,M(R)",
+      "position": "D(R), DM(R), M(R)",
       "age": " 25 (Dec 6, 1996)",
       "height": 176,
       "weight": 70,
@@ -9042,7 +9042,7 @@
     "fields": {
       "full_name": " Nicolás Alejandro Tagliafico",
       "short_name": " TAGLIAFICO",
-      "position": "D(LC),DM,M(L)",
+      "position": "D(LC), DM(L), M(L)",
       "age": " 30 (Aug 31, 1992)",
       "height": 172,
       "weight": 65,
@@ -9061,7 +9061,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/48635.png",
-      "video": "k3XkOfm49-Q",
+      "video": "I2EsTu3quNM",
       "foot": " Left"
     }
   },
@@ -9079,7 +9079,7 @@
       "weight_diff": 6,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/101763.png",
-      "video": "Xt9eyWxM0o4",
+      "video": "7QRZTOs1Tco",
       "foot": " Right"
     }
   },
@@ -9089,7 +9089,7 @@
     "fields": {
       "full_name": " Lisandro Martínez",
       "short_name": " MARTÍNEZ",
-      "position": "D(LC),DM(C)",
+      "position": "D(LC), DM(C)",
       "age": " 24 (Jan 18, 1998)",
       "height": 175,
       "weight": 77,
@@ -9108,7 +9108,7 @@
         "Work Rate"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/95243.png",
-      "video": "lyjzIHAeDLw",
+      "video": "Q3jVRkyFvqQ",
       "foot": " Left"
     }
   },
@@ -9118,7 +9118,7 @@
     "fields": {
       "full_name": " Benjamin William White",
       "short_name": " WHITE",
-      "position": "D(RC),DM(C)",
+      "position": "D(RC), DM(C)",
       "age": " 24 (Oct 8, 1997)",
       "height": 182,
       "weight": 78,
@@ -9137,7 +9137,7 @@
         "Stamina"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/87633.png",
-      "video": "dohlBp0J7zw",
+      "video": "pPcZV9SKGGI",
       "foot": " Right"
     }
   },
@@ -9166,7 +9166,7 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/69440.png",
-      "video": "D7wKreGRNFg",
+      "video": "mA35xct0prE",
       "foot": " Right"
     }
   },
@@ -9176,7 +9176,7 @@
     "fields": {
       "full_name": " Conor David Coady",
       "short_name": " COADY",
-      "position": "D,DM(C)",
+      "position": "D(C), DM(C)",
       "age": " 29 (Feb 25, 1993)",
       "height": 185,
       "weight": 73,
@@ -9242,7 +9242,7 @@
         "Corners"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/31121.png",
-      "video": "fiiaHlOZO6E",
+      "video": "5N15oIbf8RU",
       "foot": " Right"
     }
   },
@@ -9271,7 +9271,7 @@
         "Strength"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/17054.png",
-      "video": "13636_Kfdvk",
+      "video": "nRNHuixPU_k",
       "foot": " Left"
     }
   },
@@ -9318,7 +9318,7 @@
       "weight_diff": 6,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82096.png",
-      "video": "Xoe1WjpnMD4",
+      "video": "qGOSk5Buiyo",
       "foot": " Left"
     }
   },
@@ -9346,7 +9346,7 @@
     "fields": {
       "full_name": " César Azpilicueta Tanco",
       "short_name": " AZPILICUETA",
-      "position": "D(RLC),DM(RL)",
+      "position": "D(RLC), DM(RL)",
       "age": " 33 (Aug 28, 1989)",
       "height": 178,
       "weight": 75,
@@ -9365,7 +9365,7 @@
         "Pace"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/22179.png",
-      "video": "JxbrTGz8qWY",
+      "video": "GlBenZmlE5I",
       "foot": " Right"
     }
   },
@@ -9394,7 +9394,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/94977.png",
-      "video": "e_DKGBPTkh4",
+      "video": "hPlAQZS33hw",
       "foot": " Right"
     }
   },
@@ -9488,7 +9488,7 @@
       "weight_diff": 3,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/89344.png",
-      "video": "OfYlEn7_CfY",
+      "video": "fBQ6pDz3Bko",
       "foot": " Left"
     }
   },
@@ -9553,7 +9553,7 @@
       "weight_diff": 5,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/84912.png",
-      "video": "ZSXv3ln5NGc",
+      "video": "fdN_8gEITwI",
       "foot": " Right"
     }
   },
@@ -9563,7 +9563,7 @@
     "fields": {
       "full_name": " Gianluca Mancini",
       "short_name": " MANCINI",
-      "position": "D,DM(C)",
+      "position": "D(C), DM(C)",
       "age": " 26 (Apr 17, 1996)",
       "height": 190,
       "weight": 77,
@@ -9571,7 +9571,7 @@
       "weight_diff": 2,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/82097.png",
-      "video": "xPKDlBpawik",
+      "video": "j-6i3a3tExg",
       "foot": " Right"
     }
   },
@@ -9629,7 +9629,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/76303.png",
-      "video": "V7JzpNlsAmY",
+      "video": "avMtr5W3OzM",
       "foot": " Right"
     }
   },
@@ -9647,7 +9647,7 @@
       "weight_diff": 8,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/75982.png",
-      "video": "vVrxtXFdtKI",
+      "video": "71faLimEILE",
       "foot": " Right"
     }
   },
@@ -9705,8 +9705,8 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/68027.png",
-      "video": "5hJeTS1q2cQ",
-      "foot": "RightLeft"
+      "video": "X9mW2r_1r_k",
+      "foot": "Right and Left"
     }
   },
   {
@@ -9733,7 +9733,7 @@
     "fields": {
       "full_name": " Eric Jeremy Edgar Dier",
       "short_name": " DIER",
-      "position": "D,DM(C)",
+      "position": "D(C), DM(C)",
       "age": " 28 (Jan 15, 1994)",
       "height": 191,
       "weight": 86,
@@ -9741,8 +9741,8 @@
       "weight_diff": 11,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/59391.png",
-      "video": "sSje053ulu4",
-      "foot": "RightLeft"
+      "video": "Y3iY4Je03fU",
+      "foot": "Right and Left"
     }
   },
   {
@@ -9759,7 +9759,7 @@
       "weight_diff": 8,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/58172.png",
-      "video": "2qXs_30qVOc",
+      "video": "tvObVYkenTA",
       "foot": " Right"
     }
   },
@@ -9846,7 +9846,7 @@
         "Movement"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/51887.png",
-      "video": "lyjzIHAeDLw",
+      "video": "qFruVw_uH5w",
       "foot": " Left"
     }
   },
@@ -9940,7 +9940,7 @@
         "Positioning"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/3302.png",
-      "video": "_uTOpSJktbU",
+      "video": "3CQHfNXRgpo",
       "foot": " Right"
     }
   },
@@ -9987,7 +9987,7 @@
       "weight_diff": 9,
       "attributes": [],
       "image": "https://cdn.soccerwiki.org/images/player/88444.png",
-      "video": "7ht4cMJgIZk",
+      "video": "kSuM9Flw2Ao",
       "foot": " Right"
     }
   },
@@ -10016,7 +10016,7 @@
         "Determination"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/55064.png",
-      "video": "uMpuvfpOMOc",
+      "video": "NqvYaM-SVFY",
       "foot": " Left"
     }
   },
@@ -10045,7 +10045,7 @@
         "Creativity"
       ],
       "image": "https://cdn.soccerwiki.org/images/player/53502.png",
-      "video": "fe4Nhprr5E4",
+      "video": "VAf4QYlieRI",
       "foot": " Left"
     }
   }
