@@ -205,7 +205,7 @@ select option:first-child { color: #757574; }
 
 .carousel-item {
   text-align: center;
-  background: url("../assets/img/player7.jpg");
+  background: url("../assets/img/turf.jpg");
   min-height: max-content;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -230,5 +230,5 @@ select option:first-child { color: #757574; }
   min-height: 800px;
   text-align: center;
   align-items: center;
-  background: url("../assets/img/player7.jpg");
+  background: url("../assets/img/turf.jpg");
 }
