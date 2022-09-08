@@ -12,15 +12,9 @@ class data(models.Model):
     height_diff = models.IntegerField(default=0)
     weight_diff = models.IntegerField(default=0)
     attributes = models.CharField(max_length=200)
-    youtube1_title = models.CharField(max_length=200)
-    youtube1_image = models.CharField(max_length=200)
-    youtube1_url = models.CharField(max_length=200)
-    youtube2_title = models.CharField(max_length=200)
-    youtube2_image = models.CharField(max_length=200)
-    youtube2_url =  models.CharField(max_length=200)
-    youtube3_title =  models.CharField(max_length=200)
-    youtube3_image = models.CharField(max_length=200)
-    youtube3_url = models.CharField(max_length=200)
+    image = models.CharField(max_length=200)
+    video = models.CharField(max_length=200)
+    foot = models.CharField(max_length=200)
 
 class user_data(models.Model):
     age = models.CharField(max_length=200)

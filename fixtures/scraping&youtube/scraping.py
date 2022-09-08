@@ -12,8 +12,10 @@ import json
 # youtube data api v3を利用するために必要なもの
 # ここから------------------------------------------
 from apiclient.discovery import build
-from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
-
+# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
+YOUTUBE_KEY = 'AIzaSyC-iv2T9ePHvwBhjTTpKlQO-pOBXtOZeFo'
+YOUTUBE_SERVICE = "youtube"
+YOUTUBE_VERSION = "v3"
 DEVELOPER_KEY = YOUTUBE_KEY
 YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
 YOUTUBE_API_VERSION = YOUTUBE_VERSION
@@ -29,7 +31,7 @@ height_average = 182 # 1回目はコメントアウト。2回目は使う
 
 # ここから、各選手のurl取得、次ページの取得、各選手のページからの情報取得、次のページへの遷移を全て15回繰り返す。
 # サーバの負荷軽減のため10秒の間隔をあけて。25回で。
-for z in range(25):
+for z in range(24,25):
 
     # スクレイピングするページのurl（Top Rated Players）
     url = f'https://en.soccerwiki.org/search/player?firstname=&surname=&nationality=&leagueid=&position=&minrating=90&maxrating=99&minage=15&maxage=60&country=&minheight=150&maxheight=220&foot=&submit=15&offset={z*15}'
@@ -54,6 +56,7 @@ for z in range(25):
         # 選手のプロフィールを抽出する（利き足のところを含んだ数個だけclassが違ったため_1と_2ができた。
         player_profiles_1 = soup_1.find_all("p", class_="player-info-subtitle mb-2")
         player_profiles_2 = soup_1.find_all("p", class_="player-info-subtitle mt-3 mb-2")
+        player_profile_image = soup_1.find_all("img", class_="lozad img-fluid bg-light")
         for j in range(len(player_profiles_1)):
             if j == 0:
                 p = player_profiles_1[j].contents
@@ -81,6 +84,8 @@ for z in range(25):
                 print(player_weight)
         p = player_profiles_2[1].contents
         player_foot = p[1]
+        if player_foot == ' Both':
+            player_foot = 'RightLeft'
         print(player_foot)
         # 選手の特徴のタグを抽出。
         player_attributes = soup_1.find_all(True, class_="col-12 col-md-12 col-lg-4 mb-2")
@@ -88,6 +93,10 @@ for z in range(25):
         for j in range(len(player_attributes)):
             player_attributes_array.append(player_attributes[j].text)
         print(player_attributes_array)
+        
+        for image in player_profile_image:
+            player_image = image['data-src']
+        print(player_image)
 
         # youtubeのapiを利用して検索結果を保存
         # ここから-------------------------------
@@ -95,40 +104,44 @@ for z in range(25):
         max_results = 3
         search_response = youtube.search().list(
         q=q,
-        part="id,snippet",
-        fields='items(id(videoId),snippet(title,thumbnails(default(url))))',
+        # part="id,snippet",
+        part="id",
+        # fields='items(id(videoId),snippet(title,thumbnails(default(url))))',
+        fields='items(id(videoId))',
         type='video',
         maxResults=max_results
         ).execute()
 
         youtube_results = search_response['items']
 
-        # 1つ目
+        # # 1つ目
         youtube_result_1 = youtube_results[0]
-        print(youtube_result_1)
-        print(youtube_result_1['snippet']['title'])
-        print(youtube_result_1['snippet']['thumbnails']['default']['url'])
-        player_youtube1_title = youtube_result_1['snippet']['title']
-        player_youtube1_image_url = youtube_result_1['snippet']['thumbnails']['default']['url']
-        player_youtube1_url = 'https://www.youtube.com/watch?v=%s' % youtube_result_1["id"]["videoId"]
-        print(player_youtube1_url)
+        # print(youtube_result_1)
+        # print(youtube_result_1['snippet']['title'])
+        # print(youtube_result_1['snippet']['thumbnails']['default']['url'])
+        # player_youtube1_title = youtube_result_1['snippet']['title']
+        # player_youtube1_image_url = youtube_result_1['snippet']['thumbnails']['default']['url']
+        # player_youtube1_url = 'https://www.youtube.com/watch?v=%s' % youtube_result_1["id"]["videoId"]
+        # print(player_youtube1_url)
+        player_videoID = youtube_result_1["id"]["videoId"]
+        print(player_videoID)
 
-        # 2つ目
-        youtube_result_2 = youtube_results[1]
-        print(youtube_result_2['snippet']['title'])
-        print(youtube_result_2['snippet']['thumbnails']['default']['url'])
-        player_youtube2_title = youtube_result_2['snippet']['title']
-        player_youtube2_image_url = youtube_result_2['snippet']['thumbnails']['default']['url']
-        player_youtube2_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_2["id"]["videoId"]
+        # # 2つ目
+        # youtube_result_2 = youtube_results[1]
+        # print(youtube_result_2['snippet']['title'])
+        # print(youtube_result_2['snippet']['thumbnails']['default']['url'])
+        # player_youtube2_title = youtube_result_2['snippet']['title']
+        # player_youtube2_image_url = youtube_result_2['snippet']['thumbnails']['default']['url']
+        # player_youtube2_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_2["id"]["videoId"]
 
-        # 3つ目
-        youtube_result_3 = youtube_results[2]
-        print(youtube_result_3['snippet']['title'])
-        print(youtube_result_3['snippet']['thumbnails']['default']['url'])
-        player_youtube3_title = youtube_result_3['snippet']['title']
-        player_youtube3_image_url = youtube_result_3['snippet']['thumbnails']['default']['url']
-        player_youtube3_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_3["id"]["videoId"]
-        # -------------------------------ここまで
+        # # 3つ目
+        # youtube_result_3 = youtube_results[2]
+        # print(youtube_result_3['snippet']['title'])
+        # print(youtube_result_3['snippet']['thumbnails']['default']['url'])
+        # player_youtube3_title = youtube_result_3['snippet']['title']
+        # player_youtube3_image_url = youtube_result_3['snippet']['thumbnails']['default']['url']
+        # player_youtube3_url = 'https://www.youtube.com/watch?v=%s' + youtube_result_3["id"]["videoId"]
+        # # -------------------------------ここまで
 
 
 
@@ -136,7 +149,7 @@ for z in range(25):
         # weight_total_array.append(player_weight) # 1回目は使う。2回目はコメントアウト
         # height_total_array.append(player_height) # 1回目は使う。2回目はコメントアウト
 
-        # 平均との差を出しておく。
+        # # 平均との差を出しておく。
         player_weight_diff = player_weight - weight_average # 1回目はコメントアウト。2回目は使う
         player_height_diff = player_height - height_average # 1回目はコメントアウト。2回目は使う
 
@@ -158,21 +171,24 @@ for z in range(25):
             'height_diff': player_height_diff, # 1回目はコメントアウト。2回目は使う
             'weight_diff': player_weight_diff, # 1回目はコメントアウト。2回目は使う
             'attributes': player_attributes_array,
-            'youtube1_title': player_youtube1_title,
-            'youtube1_image': player_youtube1_image_url,
-            'youtube1_url': player_youtube1_url,
-            'youtube2_title': player_youtube2_title,
-            'youtube2_image': player_youtube2_image_url,
-            'youtube2_url': player_youtube2_url,
-            'youtube3_title': player_youtube3_title,
-            'youtube3_image': player_youtube3_image_url,
-            'youtube3_url': player_youtube3_url
+            # 'youtube1_title': player_youtube1_title,
+            # 'youtube1_image': player_youtube1_image_url,
+            # 'youtube1_url': player_youtube1_url,
+            # 'youtube2_title': player_youtube2_title,
+            # 'youtube2_image': player_youtube2_image_url,
+            # 'youtube2_url': player_youtube2_url,
+            # 'youtube3_title': player_youtube3_title,
+            # 'youtube3_image': player_youtube3_image_url,
+            # 'youtube3_url': player_youtube3_url,
+            'image': player_image,
+            'video': player_videoID,
+            'foot': player_foot
         } 
         }
 
         # iが0の時は上書き保存して、iが1の時は配列を作成して、それ以外の場合は読み込んだ後に配列を分解して、
         # 新たな配列に追加する。（分解しないと多重配列になっていってしまったため）
-        filename = './data.json'
+        filename = './data2.json'
         if z == 0 and i == 0:
             json_file = open(filename, mode="w")
             json.dump(item, json_file, indent=2, ensure_ascii=False)
