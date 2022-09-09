@@ -100,7 +100,7 @@ def move_to_output(request):
         final_list = player_results_list
     else:
         player_results_list = list(data.objects.all().filter(position__contains=user_position[:-3]).filter(position__contains=user_position[-2]).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).filter(foot__contains=user_foot).values_list())
-        final_list = player_results_list
+        final_list = playerlist_position_match(user_position, player_results_list)
 
 
     final_list.sort(key=sort_value)    
