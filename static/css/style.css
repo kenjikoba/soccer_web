@@ -230,7 +230,6 @@ select option:first-child { color: #757574; }
   max-width: 300px;
 }
 
-
 .carousel-item {
   text-align: center;
   background: url("../assets/img/turf.jpg");
@@ -254,9 +253,18 @@ select option:first-child { color: #757574; }
   align-items: center;
 }
 
-.zero {
-  min-height: 800px;
+.info {
   text-align: center;
-  align-items: center;
+  color: black;
+}
+
+.info-div {
+  text-align: center;
   background: url("../assets/img/turf.jpg");
+  min-height: max-content;
+  opacity: 0.93;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
