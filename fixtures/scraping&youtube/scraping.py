@@ -18,21 +18,16 @@ from datetime import datetime
 import json
 from googleapiclient.discovery import build
 
-GOOGLE_API_KEY = 'AIzaSyBeRryEyEMPEbX2fIYETlcsSCd7MA9F6dQ'
-CUSTOM_SEARCH_ENGINE_ID = "c1f5ae34ee0f34427"
+from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION, GOOGLE_API,GOOGLE_ID
 
-# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION, GOOGLE_API,GOOGLE_ID
-
-# DEVELOPER_KEY = YOUTUBE_KEY
-# YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
-# YOUTUBE_API_VERSION = YOUTUBE_VERSION
-# GOOGLE_API_KEY = GOOGLE_API
-GOOGLE_API_KEY = 'AIzaSyBeRryEyEMPEbX2fIYETlcsSCd7MA9F6dQ'
-# engine_id = GOOGLE_ID
-engine_id = "c1f5ae34ee0f34427"
+DEVELOPER_KEY = YOUTUBE_KEY
+YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
+YOUTUBE_API_VERSION = YOUTUBE_VERSION
+GOOGLE_API_KEY = GOOGLE_API
+engine_id = GOOGLE_ID
 
 
-# youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
+youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
 # ------------------------------------------ここまで
 
 # 平均の体重・身長を出すために配列に一旦格納しておく。
@@ -222,7 +217,7 @@ for z in range(25):
             # Google Customサーチ結果を取得
             s = build("customsearch", 'v1', developerKey = GOOGLE_API_KEY)
             r = s.cse().list(q = KEYWORD,
-            cx = CUSTOM_SEARCH_ENGINE_ID,
+            cx = engine_id,
             lr = 'lang_ja',
             num = 1,
             start = 1).execute()
