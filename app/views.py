@@ -8,6 +8,7 @@
 # #     return HttpResponse("Hello, world. You're at the app index.")
 
 # from attr import attributes
+import re
 from django.shortcuts import render
 
 from app.models import data, user_data
@@ -69,41 +70,35 @@ def move_to_output(request):
     def sort_value(x):
         return abs((user_diff_h - x[6]) + (user_diff_w - x[7]))
 
-    def player_position_match(user_position,player_results_list): #boolianを返す。
-        for player_tuble in player_results_list:
-            player_position_list = player_tuble[2].split(',')
-        player_side_list = []
+    def playerlist_position_match(user_position, player_results_list): #リストを返す
+        user_position_noside = user_position[:-3]
+        user_position_side = user_position[-2]
+        res = []
 
-    # D,DM(R),M,AM(RC) これを()で分解してグループ化したい
-    # ['D', 'DM(R)', 'M', 'AM(RC)']
+        for player_tuble in player_results_list:
+            player_position_list = player_tuble[2].split(',')  # ['D(R)', 'DM(R)', 'M(RC)', 'AM(RC)']
+            for position in player_position_list:
+                posi = re.sub("\(.+?\)", "", position) # 'D'
+                side = re.search("(?<=\().+?(?=\))", position).group() # 'R
+                if user_position_noside == posi and user_position_side in side:
+                    res.append(player_tuble)
+        return res                
+
+    # ['D(R)', 'DM(R)', 'M(RC)', 'AM(RC)']
 
     final_list = []
     if user_position == 'D':
         player_results_list = list(data.objects.all().filter(position__contains='D').exclude(position__startswith='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
         final_list = player_results_list
     elif user_position =='D(L)' or user_position == 'D(C)' or user_position =='D(R)':
-        player_results_list = list(data.objects.all().filter(Q(position__contains='D') & Q(position__contains=user_position[-2])).exclude(position__startswith='DM').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
-        for player_tuble in player_results_list:
-            player_position_list = player_tuble[2].split(',')
-        # player_side_list = []
-        # for i in player_position_list:
-        #     if '(' in i:
-        #         player_side_list.append(i)
-        # for i in player_side_list:
-            
-        # for i in range(len(player_position_list)):
-
-
-
+        player_results_list = list(data.objects.all().filter(Q(position__contains='D') & Q(position__contains=user_position[-2])).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
+        final_list = playerlist_position_match(user_position, player_results_list)
     elif user_position == 'M':
         player_results_list = list(data.objects.all().filter(position__contains='M').filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
         final_list = player_results_list
     elif user_position =='M(L)' or user_position =='M(C)' or user_position =='M(R)':
         player_results_list = list(data.objects.all().filter(Q(position__contains='M') & Q(position__contains=user_position[-2])).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
-        for player in player_results_list:
-            player_position_list = player[2].split(',')
-            if user_position in player_position_list:
-                final_list.append(player)
+        final_list = playerlist_position_match(user_position, player_results_list)
     elif len(user_position)<=2:
         player_results_list = list(data.objects.all().filter(position__contains=user_position).filter(height_diff__gte=user_diff_h_min).filter(height_diff__lte=user_diff_h_max).filter(weight_diff__gte=user_diff_w_min).filter(weight_diff__lte=user_diff_w_max).filter(attributes__contains=user_attributes).values_list())
         final_list = player_results_list
@@ -112,6 +107,6 @@ def move_to_output(request):
         final_list = player_results_list
 
 
-    player_results_list.sort(key=sort_value)    
+    final_list.sort(key=sort_value)    
     result = {"result" : final_list} 
     return render(request, 'user_input_complete.html', result)
