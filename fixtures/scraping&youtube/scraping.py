@@ -12,11 +12,25 @@ import json
 # youtube data api v3を利用するために必要なもの
 # ここから------------------------------------------
 from apiclient.discovery import build
-# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION
+
+import os
+from datetime import datetime
+import json
+from googleapiclient.discovery import build
+
+GOOGLE_API_KEY = 'AIzaSyBeRryEyEMPEbX2fIYETlcsSCd7MA9F6dQ'
+CUSTOM_SEARCH_ENGINE_ID = "c1f5ae34ee0f34427"
+
+# from .youtube_key import YOUTUBE_KEY, YOUTUBE_SERVICE, YOUTUBE_VERSION, GOOGLE_API,GOOGLE_ID
 
 # DEVELOPER_KEY = YOUTUBE_KEY
 # YOUTUBE_API_SERVICE_NAME = YOUTUBE_SERVICE
 # YOUTUBE_API_VERSION = YOUTUBE_VERSION
+# GOOGLE_API_KEY = GOOGLE_API
+GOOGLE_API_KEY = 'AIzaSyBeRryEyEMPEbX2fIYETlcsSCd7MA9F6dQ'
+# engine_id = GOOGLE_ID
+engine_id = "c1f5ae34ee0f34427"
+
 
 # youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
 # ------------------------------------------ここまで
@@ -46,7 +60,7 @@ for z in range(25):
             url_array_players.append(elems[i].attrs['href'])
     # ここまではできた。url_array_playersの配列の中に、上位15人の選手のurlが入った。
 
-    for i in range(15): # 15
+    for i in range(3,15): # 15
         # 各選手のurlに遷移していく。
         right_url = 'https://en.soccerwiki.org' + url_array_players[i]
         r_1 = requests.get(right_url)
@@ -111,37 +125,113 @@ for z in range(25):
                     player_position = player_position + ', ' + player_position_list[hey]
         print(player_position)
         
-        for image in player_profile_image:
-            player_image = image['data-src']
-        print(player_image)
+        # for image in player_profile_image:
+        #     player_image = image['data-src']
+        # print(player_image)
 
 
 
 
 
-        # Wikipediaから選手の日本語名と写真を取ってくる。
-        q_wiki = player_full_name + '　' + 'サッカー' + '　' + 'ウィキペディア'
-        google_url = 'https://www.google.com/search?q=' + q_wiki
+        # Google検索から選手の日本語名を取得。
+        q_google = player_full_name + '　' + 'サッカー' + '　' + 'ウィキペディア'
+        google_url = 'https://www.google.com/search?q=' + q_google
         google = requests.get(google_url)
         google.raise_for_status()
-        soup_google = BeautifulSoup(google.text, "html.parser")
+        soup_google = BeautifulSoup(google.content, "html.parser")
         google_list = soup_google.select('div.kCrYT > a')
-        # print(google_list)
-        # site_url = google_list[0].get('href').replace('/url?q=','')
-        # yuRUbf
-        # google_list = soup.find_all("div", class_="yuRUbf")
-        print(google_list)
-        # site = google_list[0]
-        # site_url = site['href']
-        # print(site_url)
-        # https://ja.wikipedia.org/wiki/%25E3%2583%25AA%25E3%2582%25AA%25E3%2583%258D%25E3%2583%25AB%25E3%2583%25BB%25E3%2583%25A1%25E3%2583%2583%25E3%2582%25B7&amp;sa=U&amp;ved=2ahUKEwifvdjewIX6AhW6p1YBHSgwCu4QFnoECAEQAg&amp;usg=AOvVaw0bat7le32_Wkya6GEyno4O"
+        name = list(google_list[0].text)
+        cnt = 0
+        for text in range(len(name)):
+            if name[text] == '-':
+                cnt = text - 1
+                break
+        japanese_array = name[:cnt]
+        japanese_name = "".join(japanese_array)
+        print(japanese_name)
 
 
 
+        # Google検索からWikipediaでの選手の表示名を取得（英語）。
+        q_google_english = player_full_name + 'football' + 'wikipedia'
+        google_url_english = 'https://www.google.com/search?q=' + q_google_english
+        google_english = requests.get(google_url_english)
+        google_english.raise_for_status()
+        soup_google_english = BeautifulSoup(google_english.content, "html.parser")
+        google_list_english = soup_google_english.select('div.kCrYT > a')
+        # google_list_english = soup_google_english.find("h3", class_=True)
+        if google_list_english == []:
+            wiki_name = player_full_name
+            # google_list_english = soup_google_english.find("h3", class_=True)
+            # print('wow')
+        else:
+            # print(google_list_english)
+            name_english = list(google_list_english[0].text)
+            cnt_english = 0
+            for text in range(len(name_english)):
+                if name_english[text] == '-':
+                    cnt_english = text - 1
+                    break
+            wiki_array = name_english[:cnt_english]
+            wiki_name = "".join(wiki_array)
+            print(wiki_name)
+            # <h3 class="LC20lb MBeuO DKV0Md">Mohamed Salah - Wikipedia</h3>
 
 
 
+        # Wikipediaから選手の画像を入手
+        wiki_url = 'https://en.wikipedia.org/wiki/' + wiki_name
+        wiki = requests.get(wiki_url)
+        soup_wiki = BeautifulSoup(wiki.content, "html.parser")
+        wiki_image = soup_wiki.find_all("a", class_="image")
+        wiki_i = wiki_image[0].find("img")
+        print(wiki_i)
+        wiki_image = wiki_i.get('src')
+        if wiki_image == '//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sports_current_event.svg/46px-Sports_current_event.svg.png':
+            wiki = requests.get(wiki_url)
+            soup_wiki = BeautifulSoup(wiki.content, "html.parser")
+            wiki_image = soup_wiki.find_all("a", class_="image")
+            wiki_i = wiki_image[1].find("img")
+            wiki_image = wiki_i.get('src')
+            if wiki_image == 'http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png':
+                wiki = requests.get(wiki_url)
+                soup_wiki = BeautifulSoup(wiki.content, "html.parser")
+                wiki_image = soup_wiki.find_all("a", class_="image")
+                wiki_i = wiki_image[2].find("img")
+                wiki_image = wiki_i.get('src')
+        elif wiki_image == '//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png':
+            wiki = requests.get(wiki_url)
+            soup_wiki = BeautifulSoup(wiki.content, "html.parser")
+            wiki_image = soup_wiki.find_all("a", class_="image")
+            wiki_i = wiki_image[1].find("img")
+            wiki_image = wiki_i.get('src')
+        player_image = 'http:' + wiki_image
+        # print(wiki_image['src'])
+        print(player_image)
 
+        # 27 カゼミーロ
+        # https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Casemiro_850_1575.jpg/800px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Casemiro_850_1575.jpg
+        # 35 ヴィニシウス・ジュニオール
+        # https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vinicius_Jr_2021.jpg/400px-Vinicius_Jr_2021.jpg
+        # 45 ロバートソン　
+        # （サッカー選手）を消す。
+
+        # Googleのcustom search apiで画像を入手
+        KEYWORD = player_full_name + 'wikipedia'
+        if __name__ == '__main__':
+            # Google Customサーチ結果を取得
+            s = build("customsearch", 'v1', developerKey = GOOGLE_API_KEY)
+            r = s.cse().list(q = KEYWORD,
+            cx = CUSTOM_SEARCH_ENGINE_ID,
+            lr = 'lang_ja',
+            num = 1,
+            start = 1).execute()
+
+        # レスポンスをjson形式で保存
+        s = json.dumps(r, ensure_ascii = False, indent = 4)
+        now = datetime.today().strftime("%Y%m%d%H%M%S")
+        with open('./res_' + now + '.json', mode='w') as f:
+            f.write(s)
 
         # youtubeのapiを利用して検索結果を保存
         # ここから-------------------------------
@@ -228,7 +318,8 @@ for z in range(25):
             # 'youtube3_url': player_youtube3_url,
             'image': player_image,
             # 'video': player_videoID,
-            'foot': player_foot
+            'foot': player_foot,
+            'name_nihon': japanese_name,
         } 
         }
 
