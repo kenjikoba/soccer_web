@@ -255,7 +255,7 @@ select option:first-child { color: #757574; }
 
 .info {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .info-div {
@@ -263,8 +263,14 @@ select option:first-child { color: #757574; }
   background: url("../assets/img/turf.jpg");
   min-height: max-content;
   opacity: 0.93;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.info p {
+  text-align: left;
 }
